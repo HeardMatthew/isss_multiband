@@ -76,13 +76,11 @@ RDT V1: Started coding RDT
   # 16 trials consisting of pairs of stimuli, two runs, means 64 stimuli?
   # LoadStimuliAndKeys_rdt should be done.
   
-  BEFORE TEST 7/13
-  $ Update stimulicheck
-  $ Revisit stimuli presentation
-  $ Double-check OutputData
-  
   BEFORE 1st SUBJECT
   $ Make a practice for RDT
+  $ Generate new, nicer stimuli
+  $ Make unique rhythms for each run? 
+  $ Check instructions, prepare for rhythm assessment
   
 Future versions: 
   $ Write function to permute order of blocks in advance for all subjects?
