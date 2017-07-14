@@ -77,13 +77,17 @@ RDT V1: Started coding RDT
   # LoadStimuliAndKeys_rdt should be done.
   
   BEFORE 1st SUBJECT
-  $ Make a practice for RDT
-  $ Generate new, nicer stimuli
-  $ Make unique rhythms for each run? 
-  $ Check instructions, prepare for rhythm assessment
+  $ Run item analysis on RDT data to pick new stimuli
+      Performance must be close to current stimuli
+  $ Generate new, nicer stimuli for BOTH subject groups
+  $ Re-code to present new stimuli and such
+      Reintroduce jitter, silent events
+  $ Make a practice for RDT for use outside of scanner
+  $ Make a master list for scan order and rhythm stimuli 
+  $ Prepare for rhythm assessment
+  $ Test your scripts in preparation for first scan
   
 Future versions: 
-  $ Write function to permute order of blocks in advance for all subjects?
   $ Preprocessing results
     $ How to do STC for multiband? 
   $ Data analysis! 

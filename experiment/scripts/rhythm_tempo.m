@@ -37,8 +37,8 @@ p.runNum   = dlg_ans{3};
 ConnectedToScanner = str2double(dlg_ans{4});
 ConnectedToRTBox   = str2double(dlg_ans{5}); 
 
-NumberOfRTStimuli = 4; % 4 different rhythm/tempo clips. Needs to be 8. 
-NumberOfStimuli   = 8; % 8 .wav files in stimuli folder (normal + oddball)
+NumberOfRTStimuli = 8;  % 8 different rhythm/tempo clips. Needs to be 8. 
+NumberOfStimuli   = 12; % 12 .wav files in stimuli folder (norm + oddball)
 % The script presents four sets of the 4 (soon 8?) RT stimuli per run in a
 % random order, and includes two oddball stimuli. 
 
@@ -63,7 +63,13 @@ p.rxnWindow   = 3.000;  % 3 seconds
 cd ..
 direc = pwd; 
 
-StimuliLoc   = [direc, '\stimuli_rhythm'];
+StimuliTag   = [direc, '\stimuli_rhythm']; 
+if mod(p.subjNum, 2) == 1 % Odd numbered subject
+    StimuliLoc   = [StimuliTag, '\oddsubj'];
+else                      % Even numbered subject
+    StimuliLoc   = [StimuliTag, '\evensubj'];
+end
+
 ScriptsLoc   = [direc, '\scripts'];
 ResultsLoc   = [direc, '\results']; 
 FuncsLoc     = [ScriptsLoc, '\functions'];
