@@ -1,0 +1,5 @@
+Welcome to isss_multiband! Press "Button2"
+Press "Button2" to continue instructions.
+Press "Button1" to go back.
+Your task is to test this script.
+Press the button box when ready to begin.
