@@ -75,17 +75,19 @@ RDT V1: Started coding RDT
   # Practice will be 5 trials long. 
   # 16 trials consisting of pairs of stimuli, two runs, means 64 stimuli?
   # LoadStimuliAndKeys_rdt should be done.
+  # New stimuli have been made (RMS complete) and subsequently discarded, still need stimuli
+  # Jitter is back, complete with variable length stimuli. 
+  # Results now output correctly. 
   
   BEFORE 1st SUBJECT
-  $ Run item analysis on RDT data to pick new stimuli
-      Performance must be close to current stimuli
-  $ Generate new, nicer stimuli for BOTH subject groups
-  $ Re-code to present new stimuli and such
-      Reintroduce jitter, silent events
-  $ Make a practice for RDT for use outside of scanner
-  $ Make a master list for scan order and rhythm stimuli 
-  $ Prepare for rhythm assessment
-  $ Test your scripts in preparation for first scan
+  $ Print ALL forms needed (consent in particular) 
+  $ Get RDT from Sang for tomorrow's pre-scan practice
+      Run on my computer
+      Ask Shane if he can install OpenSesame to test computer in CCBBI
+  $ Prepare for pre-scan stuff
+      Make a master list for scan order
+  $ Prepare for scan
+      Double check both experiments work
   
 Future versions: 
   $ Preprocessing results

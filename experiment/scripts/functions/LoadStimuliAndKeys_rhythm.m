@@ -1,6 +1,6 @@
 % LoadStimuli.m
-function [audiodata, samplingrate, duration, eventkey, anskey, rhythmkey] = ... 
-    LoadStimuliAndKeys_rhythm(fileloc, events, run, numRhythm) 
+function [audiodata, samplingrate, duration, jitkey, eventkey, anskey, rhythmkey] = ... 
+    LoadStimuliAndKeys_rhythm(fileloc, events, run) 
 % Loads audio data from \stimuli into two cell arrays; one for the
 % waveform (audiodata) and one for the sampling rate (samplingrate). Now 
 % generates the answer, jitter, and event keys at the same time. 
@@ -58,21 +58,36 @@ end
 % eventkey -- In what order will stimuli be presented?
 % Carefully choose which stimuli to present to ensure stimuli are
 % counterbalanced. 
-temp = Shuffle(horzcat( ... 
-    0 * ones(1, numRhythm/2), ... 
-    1 * ones(1, numRhythm/2), ... 
-    2 * ones(1, numRhythm/2), ... 
-    3 * ones(1, numRhythm/2), ...
-    4, 5 ... 
+eventkey = Shuffle(horzcat( ... 
+    1 * ones(1, 4), ... % Simple long
+    2 * ones(1, 4), ... % Complex long
+    3 * ones(1, 4), ... % Simple short
+    4 * ones(1, 4), ... % Complex short
+    5, 6, 7, 8 ...      % Oddball, oddball, silence, silence
     )); 
-eventkey = temp + (run-1)*6 + 1; 
+
+% jitkey -- How much was the jitter before stimulus presentation? This
+% depends on which stimuli is being presented, as durations vary across one
+% condition. 
+shortstimduration = 2.100; 
+longstimduration  = 3.600; 
+jitkey = NaN(1, events); 
+for i = 1:events
+    if ~isempty(find(eventkey(i) == [1 2 5], 1)) % Long conditions
+        jitkey(i) = (4-longstimduration)*rand(1); 
+    elseif ~isempty(find(eventkey(i) == [3 4 6], 1)) % Short conditions
+        jitkey(i) = (4-shortstimduration)*rand(1); 
+    elseif ~isempty(find(eventkey(i) == [7 8], 1)) % Silent conditions
+        jitkey(i) = 2*rand(1); 
+    end
+end
 
 % rhythmkey -- Which rhythms were presented to the subject? 
 rhythmkey = sort(eventkey);
 
 % anskey -- What should have subjects responded with?
 for i = 1:events
-    if temp(i) > 3 % events that are odd
+    if ~isempty(find(eventkey(i) == [5 6], 1)) % events that are odd
         anskey(i) = 1; 
     else % events that are not odd
         anskey(i) = 0; 

@@ -12,8 +12,6 @@ catch
     disp('PsychPortAudio is already closed.')
 end
 
-InitializePsychSound
-
 clearvars; clc; 
 codeStart = GetSecs(); 
 
@@ -24,7 +22,7 @@ AudioDevice = PsychPortAudio('GetDevices', 3);
 prompt = {...
     'Subject number (###):', ...
     'Subject initials (XX):', ...
-    'Run number (1-2)', ...
+    'Run number (7-8)', ...
     'Scanner connected (0/1):', ...
     'RTBox connected (0/1):', ...
     }; 
@@ -37,15 +35,15 @@ p.runNum   = dlg_ans{3};
 ConnectedToScanner = str2double(dlg_ans{4});
 ConnectedToRTBox   = str2double(dlg_ans{5}); 
 
-NumberOfRTStimuli = 8;  % 8 different rhythm/tempo clips. Needs to be 8. 
-NumberOfStimuli   = 12; % 12 .wav files in stimuli folder (norm + oddball)
-% The script presents four sets of the 4 (soon 8?) RT stimuli per run in a
-% random order, and includes two oddball stimuli. 
+NumberOfRTStimuli = 4;  % 4 different rhythm/tempo clips. Needs to be 4. 
+NumberOfStimuli   = 8;  % 8 .wav files in folder (norm + oddball + silent)
+% The script presents four sets of the 4 RT stimuli per run in a random 
+% order, and includes two oddball and two silent stimuli. 
 
 p.TR = 1.000; 
 p.epiNum = 10; 
 
-p.events      = 18;     % 18 events
+p.events      = 20;     % 20 events (16 stim + 2 silent + 2 oddball)
 p.presTime    = 4.000;  % 4 seconds
 p.epiTime     = 10.000; % 10 seconds
 p.eventTime   = p.presTime + p.epiTime;
@@ -53,18 +51,18 @@ p.runDuration = p.epiTime + ...   % After first pulse
     p.eventTime * p.events + ...  % Each event
     p.eventTime;                  % After last acquisition
 p.rxnWindow   = 3.000;  % 3 seconds
-%p.jitWindow   = 1.000;  % 1 second, see notes below
-    % For this experiment, the first second of the silent window will not
-    % have stimuli presented. To code for this, I add 1 second to the 
-    % jitterKey. This variable is just here to remind me that the addition 
-    % occurs later, within the LoadStimuli function. 
+p.jitWindow   = [1.000, 2.300];  % Varies, see notes below
+    % For this experiment, each stimuli onset will be jittered. However,
+    % stimuli may vary in duration. "Long" stimuli last 3.0 seconds, while
+    % "short" stimuli are 1.7 seconds. So, jitter can be either up to 1.000
+    % or 2.300 seconds long. This is taken care of in LoadStimuli. 
 
 % Paths
 cd ..
 direc = pwd; 
 
 StimuliTag   = [direc, '\stimuli_rhythm']; 
-if mod(p.subjNum, 2) == 1 % Odd numbered subject
+if mod(str2double(p.subjNum), 2) == 1 % Odd numbered subject
     StimuliLoc   = [StimuliTag, '\oddsubj'];
 else                      % Even numbered subject
     StimuliLoc   = [StimuliTag, '\evensubj'];
@@ -97,8 +95,8 @@ respKey  = cell(1, p.events);
 %% Prepare test
 % Load stimuli and check counterbalance
 cd(FuncsLoc) 
-[audio, fs, stimDuration, eventKey, answerKey, rhythmKey] = ...
-    LoadStimuliAndKeys_rhythm(StimuliLoc, p.events, p.runNum, NumberOfRTStimuli);
+[audio, fs, stimDuration, jitterKey, eventKey, answerKey, rhythmKey] = ...
+    LoadStimuliAndKeys_rhythm(StimuliLoc, p.events, p.runNum);
 fs = fs{1}; % Above func checks that all fs are the same. 
 
 % if ~strcmp(p.scanType, 'train')
@@ -109,7 +107,7 @@ cd(direc)
 
 % Prepare timing keys
 eventStartKey = p.epiTime + [0:p.eventTime:((p.events-1)*p.eventTime)]; %#ok<NBRAK>
-stimStartKey  = eventStartKey; 
+stimStartKey  = eventStartKey + jitterKey; 
 stimEndKey    = stimStartKey + stimDuration(eventKey);
 rxnEndKey     = stimEndKey + p.rxnWindow; 
 eventEndKey   = eventStartKey + p.eventTime;
@@ -125,6 +123,9 @@ HideCursor();
 % Open audio connection
 InitializePsychSound
 pahandle = PsychPortAudio('Open', [], [], [], fs);
+% Play a silent audio clip just to eliminate clipping on first presentation
+PsychPortAudio('FillBuffer', pahandle, audio{rhythmKey(end)});
+PsychPortAudio('Start', pahandle, 1);
     % Stimuli are presented on the scanner computer, which shares a screen
     % and audio output with the scanner projector and headphones. 
 
@@ -136,11 +137,11 @@ if ConnectedToRTBox == 0
 end
 
 % Display instructions
-if ShowInstructions
-    cd(FuncsLoc)
-    DisplayInstructions_bkfw_rtbox(Instructions, wPtr, RTBoxLoc); 
-    cd(direc)
-end
+% if ShowInstructions
+%     cd(FuncsLoc)
+%     DisplayInstructions_bkfw_rtbox(Instructions, wPtr, RTBoxLoc); 
+%     cd(direc)
+% end
 DrawFormattedText(wPtr, 'Waiting for experimenters...'); 
 Screen('Flip', wPtr); 
 
@@ -172,8 +173,9 @@ try
         WaitTill(AbsStimStart(j)); 
         
         stimStart(j) = GetSecs; 
-        PsychPortAudio('Start', pahandle, 1);
+        PsychPortAudio('Start', pahandle);
         WaitTill(AbsStimEnd(j)); 
+        PsychPortAudio('Stop', pahandle); 
         stimEnd(j) = GetSecs; 
         RTBox('Clear'); 
 
