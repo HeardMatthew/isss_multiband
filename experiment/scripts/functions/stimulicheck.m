@@ -4,7 +4,7 @@
 % Then checks how many are MO, MS, FO, and FS. Author -- Matt
 
 % Set variables for debugging
-% ns = NumberOfSpeechStimuli; 
+% ns = NumSpeechStimuli; 
 % eventkey = eventKey; 
 
 function stimulicheck(ns, eventkey)
@@ -19,8 +19,8 @@ objKey  = sort(horzcat(1:4:ns, 2:4:ns));
 subjKey = sort(horzcat(3:4:ns, 4:4:ns)); 
 
 % Pull out which stimuli are male/fem or obj/subj
-male    = speech(logical(mod(speech + 1, 2))); 
-fem     = speech(logical(mod(speech, 2))); 
+male = speech(logical(mod(speech + 1, 2))); 
+fem  = speech(logical(mod(speech, 2))); 
 
 for i = 1:length(speech)
     if     find(speech(i) == objKey)

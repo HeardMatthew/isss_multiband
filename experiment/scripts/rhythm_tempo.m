@@ -12,6 +12,8 @@ catch
     disp('PsychPortAudio is already closed.')
 end
 
+InitializePsychSound
+
 clearvars; clc; 
 codeStart = GetSecs(); 
 
@@ -121,7 +123,6 @@ crossCoords = [-30, 30, 0, 0; 0, 0, -30, 30];
 HideCursor(); 
 
 % Open audio connection
-InitializePsychSound
 pahandle = PsychPortAudio('Open', [], [], [], fs);
 % Play a silent audio clip just to eliminate clipping on first presentation
 PsychPortAudio('FillBuffer', pahandle, audio{rhythmKey(end)});

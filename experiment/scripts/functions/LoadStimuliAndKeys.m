@@ -1,6 +1,6 @@
 % LoadStimuli.m
 function [audiodata, samplingrate, duration, jitkey, eventkey, anskey, speechkey] = ... 
-    LoadStimuliAndKeys(fileloc, events, run, numSpeech) 
+    LoadStimuliAndKeys(fileloc, numEvents, firstRun, lastRun, numSpeech, train) 
 % Loads audio data from stimuli.wav into two cell arrays; one for the
 % waveform (audiodata) and one for the sampling rate (samplingrate). Now 
 % generates the answer, jitter, and event keys at the same time. 
@@ -8,18 +8,21 @@ function [audiodata, samplingrate, duration, jitkey, eventkey, anskey, speechkey
 
 % CHANGELOG
 % 7/12/17 Started keeping record of changelog on file. -- MH
+% 7/19/17 Changed to v6, allowing for multiple runs and training. -- MH
 
 % Set variables while debugging
 %  fileloc = StimuliLoc; 
-%  events = p.events; 
-%  run = p.runNum; 
-%  numSpeech = NumberOfSpeechStimuli; 
+%  numEvents = p.events; 
+%  firstRun = subj.firstRun;
+%  lastRun = subj.lastRun;
+%  numSpeech = NumSpeechStimuli; 
+%  train = Training; 
 
 %% Preparing to load stimuli
-% Load file names
-run = str2double(run); % Input is a string
+numRuns = lastRun - firstRun + 1; 
 
-if run == 0
+% Load file names
+if train
     cd([fileloc filesep 'training'])
 else
     cd(fileloc)
@@ -27,7 +30,7 @@ end
 files = dir('*.wav'); 
 
 % Preallocate anskey variable
-anskey = NaN(1, events); 
+anskey = NaN(numEvents, numRuns); 
 
 % Preallocate stimuli variables
 audiodata = cell(1, length(files));
@@ -62,37 +65,53 @@ end
 
 %% Make keys
 % jitkey -- How much is the silent period jittered by?
-jitkey = 1 + rand(1, events); % Add 1 because stimuli are short-ish
+if train
+    jitkey = 1 + rand(numEvents, numRuns);
+else
+    jitkey = NaN(numEvents, 6); 
+    for i = firstRun:lastRun
+        jitkey(:, i) = 1 + rand(numEvents, 1); % Add 1 because stimuli are short-ish
+    end
+end
 
 % speechkey -- Which speech stimuli should we use this run?
 % Carefully choose which stimuli to present to ensure stimuli are
 % counterbalanced. 
-randomstim = Shuffle(horzcat( ... % Half of events are speech stim
-    0 * ones(1, events/8), ...    % Four conditions of speech means...
-    1 * ones(1, events/8), ...    % events/(2*4) = events/8
-    2 * ones(1, events/8), ... 
-    3 * ones(1, events/8) ... 
-    )); 
-sentence = ((run-1)*32)+1:4:run*events*2; % just figure this out in adv.
-speechkey = sentence + randomstim; 
-
 % eventkey -- In what order will stimuli be presented?
-eventkey = Shuffle(horzcat(speechkey, numSpeech+1:length(audiodata)));
-
-if run == 0
-    speechkey = 1:8;
-    eventkey  = Shuffle(1:10); 
-    jitkey = 1 + rand(1, 10); 
+if train
+    speechkey = [1; 2; 3; 4] ; 
+    eventkey  = Shuffle([speechkey; 5]); 
+else
+    randomstim = []; 
+    sentence   = []; 
+    eventkey = []; 
+    for i = firstRun:lastRun
+        randomstim = horzcat(randomstim, Shuffle(vertcat( ... 
+            0 * ones(numEvents/8, 1), ...    % Half of events are speech stim
+            1 * ones(numEvents/8, 1), ...    % Four conditions of speech means...
+            2 * ones(numEvents/8, 1), ...    % events/(2*4) = events/8
+            3 * ones(numEvents/8, 1) ... 
+            ))); 
+        sentence = horzcat(sentence, (((i-1)*32)+1:4:i*numEvents*2)'); 
+    end
+    speechkey = sentence + randomstim; 
+    for i = 1:numRuns
+        eventkey = horzcat(eventkey, Shuffle([speechkey(:, i); (numSpeech+1:length(audiodata))'])); 
+    end
 end
 
 % anskey -- What should have subjects responded with?
-for i = 1:events
-    if eventkey(i) > numSpeech % events that are silence or noise
-        anskey(i) = 0; 
-    elseif mod(eventkey(i), 2) == 0 % That is, if actor is male
-        anskey(i) = 2; 
-    else % That is, if actor is female
-        anskey(i) = 1; 
+for i = 1:numEvents
+    for j = 1:numRuns
+        if eventkey(i, j) > numSpeech + 4 % events that are silence
+            anskey(i, j) = 0; 
+        elseif eventkey(i, j) > numSpeech % events that are noise
+            anskey(i, j) = 3; 
+        elseif mod(eventkey(i, j), 2) == 0 % That is, if actor is male
+            anskey(i, j) = 2; 
+        else % That is, if actor is female
+            anskey(i, j) = 1; 
+        end
     end
 end
 

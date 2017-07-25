@@ -24,36 +24,34 @@ AudioDevice = PsychPortAudio('GetDevices', 3);
 prompt = {...
     'Subject number (###):', ...
     'Subject initials (XX):', ...
-    'Scan protocol (train/isss/multi/hybrid):', ...
-    'Run number (0-6)', ...
+    %'Scan protocol (train/isss/multi/hybrid):', ...
+    %'Run number (0-6)', ...
+    'First run (0-6)', ... 
+    'Last run (0-6)', ... 
     'Scanner connected (0/1):', ...
     'RTBox connected (0/1):', ...
     }; 
 dlg_ans = inputdlg(prompt); 
 
 % Convert dlg_ans into my p.arameters struct
-p.subjNum  = dlg_ans{1};
-p.subjInit = dlg_ans{2}; 
-p.scanType = dlg_ans{3}; 
-p.runNum   = dlg_ans{4}; 
+subj.Num  = dlg_ans{1};
+subj.Init = dlg_ans{2}; 
+subj.firstRun = str2double(dlg_ans{3}); 
+subj.lastRun  = str2double(dlg_ans{4}); 
 ConnectedToScanner = str2double(dlg_ans{5});
 ConnectedToRTBox   = str2double(dlg_ans{6}); 
 
 ShowInstructions = 0; 
 
-p.TR     = 1.000; 
-p.epiNum = 10; 
-if strcmp(p.scanType, 'train')
-    if ~strcmp(p.runNum, '0')
-        error('Set Run number to 0')
-    end
-    ShowInstructions = 1;
-elseif strcmp(p.scanType, 'isss')
-    p.TR     = 2.000;
-    p.epiNum = 5;
-elseif isempty(find(strcmp(p.scanType, {'hybrid', 'multi'}), 1))
-    error('Invalid scan protocol')
-end
+% TR, EPI number
+
+% Structures per scan type
+scanType.hybrid.TR     = 1.000; 
+scanType.hybrid.epiNum = 10; 
+scanType.multi.TR      = 1.000; 
+scanType.multi.epiNum  = 14; 
+scanType.isss.TR       = 2.000; 
+scanType.isss.epiNum   = 5; 
 
 NumberOfSpeechStimuli = 192; % 192 different speech clips
 NumberOfStimuli       = 200; % 200 .wav files in stimuli folder
@@ -64,19 +62,19 @@ NumberOfStimuli       = 200; % 200 .wav files in stimuli folder
 % 002) in the entire experiment. 
 
 p.events      = 16; 
-if strcmp(p.scanType, 'train')
-    p.events  = 10; 
+if strcmp(subj.scanType, 'train')
+    p.events  = 5; 
     NumberOfSpeechStimuli = 8; 
     NumberOfStimuli       = 10; 
 end
-p.presTime    = 4.000;  % 4 seconds
-p.epiTime     = 10.000; % 10 seconds
-p.eventTime   = p.presTime + p.epiTime;
-p.runDuration = p.epiTime + ...   % After first pulse
-    p.eventTime * p.events + ...  % Each event
-    p.eventTime;                  % After last acquisition
-p.rxnWindow = 3.000;  % 3 seconds
-p.jitWindow = 1.000;  % 1 second, see notes below
+subj.presTime    = 4.000;  % 4 seconds
+subj.epiTime     = 10.000; % 10 seconds
+subj.eventTime   = subj.presTime + subj.epiTime;
+subj.runDuration = subj.epiTime + ...   % After first pulse
+    subj.eventTime * subj.events + ...  % Each event
+    subj.eventTime;                  % After last acquisition
+subj.rxnWindow = 3.000;  % 3 seconds
+subj.jitWindow = 1.000;  % 1 second, see notes below
     % For this experiment, the first second of the silent window will not
     % have stimuli presented. To code for this, I add an additional 1 s
     % to the jitterKey. So, the jitter window ranges from 1 s to 2 s.
@@ -94,19 +92,19 @@ Instructions = 'instructions.txt';
 cd ..
 RTBoxLoc = [pwd, '\RTBox']; 
 
-filetag    = [p.subjNum '_' p.subjInit '_' p.runNum '_' p.scanType]; 
+filetag    = [subj.subjNum '_' subj.subjInit '_' subj.runNum '_' subj.scanType]; 
 ResultsTxt = [filetag '_results.txt']; 
 ResultsXls = [filetag '_results.xlsx']; 
 Variables  = [filetag '_variables.mat']; 
 
 % Preallocating timing variables
-eventStart = NaN(1, p.events);
-stimStart  = NaN(1, p.events); 
-stimEnd    = NaN(1, p.events); 
-eventEnd   = NaN(1, p.events); 
+eventStart = NaN(1, subj.events);
+stimStart  = NaN(1, subj.events); 
+stimEnd    = NaN(1, subj.events); 
+eventEnd   = NaN(1, subj.events); 
 
-respTime = cell(1, p.events); 
-respKey  = cell(1, p.events); 
+respTime = cell(1, subj.events); 
+respKey  = cell(1, subj.events); 
     % I use cells here so that responses can be empty when subjects time 
     % out, and because responses from RTBox come back as strings. 
 
@@ -114,21 +112,21 @@ respKey  = cell(1, p.events);
 % Load stimuli and check counterbalance
 cd(FuncsLoc) 
 [audio, fs, stimDuration, jitterKey, eventKey, answerKey, speechKey] = ...
-    LoadStimuliAndKeys(StimuliLoc, p.events, p.runNum, NumberOfSpeechStimuli);
+    LoadStimuliAndKeys(StimuliLoc, subj.events, subj.runNum, NumberOfSpeechStimuli);
 fs = fs{1}; % Above func checks that all fs are the same. 
 
-if ~strcmp(p.scanType, 'train')
+if ~strcmp(subj.scanType, 'train')
     cd(FuncsLoc)
     stimulicheck(NumberOfSpeechStimuli, eventKey); 
 end
 cd(direc)
 
 % Prepare timing keys
-eventStartKey = p.epiTime + [0:p.eventTime:((p.events-1)*p.eventTime)]; %#ok<NBRAK>
+eventStartKey = subj.epiTime + [0:subj.eventTime:((subj.events-1)*subj.eventTime)]; %#ok<NBRAK>
 stimStartKey  = eventStartKey + jitterKey; 
 stimEndKey    = stimStartKey + stimDuration(eventKey);
-rxnEndKey     = stimEndKey + p.rxnWindow; 
-eventEndKey   = eventStartKey + p.eventTime;
+rxnEndKey     = stimEndKey + subj.rxnWindow; 
+eventEndKey   = eventStartKey + subj.eventTime;
 
 % Open PTB screen on scanner, prepare fixation cross coords
 [wPtr, rect] = Screen('OpenWindow', 0, 185);
@@ -177,11 +175,11 @@ AbsStimEnd   = firstPulse + stimEndKey;
 AbsRxnEnd    = firstPulse + rxnEndKey; 
 AbsEvEnd     = firstPulse + eventEndKey; 
 
-WaitTill(firstPulse + p.epiTime); 
+WaitTill(firstPulse + subj.epiTime); 
 
 %% Present audio stimuli
 try
-    for j = 1:p.events
+    for j = 1:subj.events
         eventStart(j) = GetSecs(); 
         PsychPortAudio('FillBuffer', pahandle, audio{eventKey(j)});
 
@@ -197,7 +195,7 @@ try
 
         [~, eventEnd(j)] = WaitTill(AbsEvEnd(j));    
     end
-    WaitSecs(p.eventTime); 
+    WaitSecs(subj.eventTime); 
     runEnd = GetSecs(); 
     sca;  
 catch err

@@ -78,6 +78,24 @@ RDT V1: Started coding RDT
   # New stimuli have been made (RMS complete) and subsequently discarded, still need stimuli
   # Jitter is back, complete with variable length stimuli. 
   # Results now output correctly. 
+First subject: Errors in Rhythm code associated with timing (same as we had earlier with isss_multiband)
+  $ Stop scripts from quitting between runs.
+  $ Update instructions to include random press on noise trials. 
+  $ Add training component (lang task) to use within the scan to help assess volume of stimuli
+      ~6 trials, with multiband imaging
+      Have feedback
+  
+  1. Create master list for scan order across all subjects. DONE
+  2. Stop script from quitting between runs. READY FOR FULL TEST
+      Add an additional FOR loop that runs from "firstscan" to "lastscan"
+      Load in the master list so that script knows how to save behavioral data
+      Have script save all data if user presses ESCAPE. 
+      Have a similar design for rhythm
+  3. Update instructions 
+  4. Create training block
+      5 events: 1 OR male, 1 SR male, 1 OR female, 1 SR female, 1 NOISE
+    
+  
   
   BEFORE 1st SUBJECT
   $ Print ALL forms needed (consent in particular) 
