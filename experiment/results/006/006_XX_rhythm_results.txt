@@ -1,0 +1,18 @@
+DATA FOR RUN ---------- 
+# Timing data 
+Run started  19.83 after code started 
+Run duration:  10.32 
+Expected run duration: 304.00 
+Jitter key (msec):  1489.520549 679.016754 635.786711 2173.900460 208.934922 1631.347916 543.330327 274.611370 607.303941 900.275394 458.725494 1522.472929 1771.656684 350.218013 1324.019197 416.158590 841.929153 832.916819 589.814282 1410.959695
+Actual jitter (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Stimuli duration key:  2.100000 3.600000 3.600000 2.100000 3.600000 2.100000 2.100000 2.100000 3.600000 2.000000 3.600000 2.100000 2.100000 3.600000 2.000000 3.600000 3.600000 3.600000 2.100000 2.100000
+Actual stimuli duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Event duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Expected total duration: 14.000000 
+# Stimuli data 
+Event key:  4 1 1 4 2 3 3 4 2 7 1 6 4 2 8 5 1 2 3 3
+Answer key:  0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0
+# Response data 
+Subject responses:  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Reaction time (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+

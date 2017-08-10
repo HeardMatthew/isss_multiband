@@ -2,6 +2,13 @@
 % Script to run for pilot scans comparing ISSS, multiband, and the new
 % hybrid scanning protocol. Ported from my previous ISSS_test script. 
 % Author - Matt Heard
+
+% CHANGELOG
+% 08/07/17  Started changelog. -- MH
+% 08/07/17  Found error in "prepare timing keys" that overwrote eventStartKey
+%   and stimStartKey every time code completed a run. Fixed! -- MH
+% 08/09/17  Preparing for testing, making sure code looks pretty. -- MH
+
 %% Startup
 sca; DisableKeysForKbCheck([]); KbQueueStop; 
 Screen('Preference','VisualDebugLevel', 0); 
@@ -13,14 +20,11 @@ catch
 end
 
 InitializePsychSound
-
 clearvars; clc; 
 codeStart = GetSecs(); 
+AudioDevice = PsychPortAudio('GetDevices', 3); 
 
 %% Parameters
-% Many of these parameters need to be determined while testing. 
-AudioDevice = PsychPortAudio('GetDevices', 3); 
-    
 prompt = {...
     'Subject number (###):', ...
     'Subject initials (XX):', ...
@@ -31,7 +35,6 @@ prompt = {...
     }; 
 dlg_ans = inputdlg(prompt); 
 
-% Convert dlg_ans into subj struct
 subj.Num  = dlg_ans{1};
 subj.Init = dlg_ans{2}; 
 subj.firstRun = str2double(dlg_ans{3}); 
@@ -43,12 +46,12 @@ ConnectedToRTBox   = str2double(dlg_ans{6});
 if subj.firstRun == 0
     Training = 1; 
     subj.firstRun = 1; 
-    subj.lastRun = 1; 
+    subj.lastRun  = 1; 
 else
     Training = 0; 
 end
 
-% Structures per scan type
+% Scan type
 scanType.hybrid.TR     = 1.000; 
 scanType.hybrid.epiNum = 10; 
 scanType.multi.TR      = 1.000; 
@@ -56,8 +59,9 @@ scanType.multi.epiNum  = 14;
 scanType.isss.TR       = 2.000; 
 scanType.isss.epiNum   = 5; 
 
-NumSpeechStimuli = 192; % 192 different speech clips
-NumStimuli       = 200; % 200 .wav files in stimuli folder
+% Number of stimuli
+NumSpStim = 192; % 192 different speech clips
+NumStim   = 200; % 200 .wav files in stimuli folder
 % Of these 200 .wav files, 4 are silent, 4 of noise, and 192 are sentences.
 % Of these 192 speech sounds, this script chooses 8 per run (2 MO, 2 FO, 2 
 % MS, 2 FS) for presentation. Subjects will not hear a
@@ -65,136 +69,144 @@ NumStimuli       = 200; % 200 .wav files in stimuli folder
 % 002) in the entire experiment.
 
 % Timing
-p.runs        = subj.lastRun - subj.firstRun + 1; 
-p.events      = 16; 
-p.presTime    = 4.000;  % 4 seconds
-p.epiTime     = 10.000; % 10 seconds
-p.eventTime   = p.presTime + p.epiTime;
+p.runs   = length(subj.firstRun:subj.lastRun); 
+p.events = 16; 
+
+p.presTime   = 4.000;  % 4 seconds
+p.epiTime    = 10.000; % 10 seconds
+p.eventTime  = p.presTime + p.epiTime;
+
 p.runDuration = p.epiTime + ...   % After first pulse
     p.eventTime * p.events + ...  % Each event
     p.eventTime;                  % After last acquisition
+
 p.rxnWindow = 3.000;  % 3 seconds
 p.jitWindow = 1.000;  % 1 second, see notes below
     % For this experiment, the first second of the silent window will not
     % have stimuli presented. To code for this, I add an additional 1 s
     % to the jitterKey. So, the jitter window ranges from 1 s to 2 s.
+
+% Training override
+if Training
+    NumSpStim = 4; 
+    NumStim   = 5; 
+    p.events  = 5; 
+end
     
 %% Paths
 cd ..
-direc = pwd; 
-StimuliLoc   = [direc, '\stimuli_lang'];
-ScriptsLoc   = [direc, '\scripts'];
-ResultsLoc   = [direc, '\results'];
-FuncsLoc     = [ScriptsLoc, '\functions'];
-Instructions = 'instructions_lang.txt';
+expDir = pwd; 
+
+StimuliLoc = [expDir, '\stimuli_lang'];
+ScriptsLoc = [expDir, '\scripts'];
+ResultsLoc = [expDir, '\results'];
+FuncsLoc   = [ScriptsLoc, '\functions'];
+
 cd ..
 RTBoxLoc = [pwd, '\RTBox']; 
 
-% Training exceptions    
-if Training
-    NumSpeechStimuli = 4; 
-    NumStimuli       = 5; 
-    p.events = 5; 
-end
+Instructions = 'instructions_lang.txt';
 
-%% Preallocating timing variables (hard-coded width so if runs = (not 1):n, not broken...
+%% Preallocating timing variables
 if Training
-    n = 1;
+    maxNumRuns = 1;
 else
-    n = 6; 
+    maxNumRuns = 6; 
 end
 
-eventStart   = NaN(p.events, n);
-stimStart    = NaN(p.events, n); 
-stimEnd      = NaN(p.events, n); 
-eventEnd     = NaN(p.events, n); 
-stimEndKey   = NaN(p.events, n); 
-stimDuration = NaN(p.events, n); 
+eventStart    = NaN(p.events, maxNumRuns);
+stimStart     = NaN(p.events, maxNumRuns); 
+stimEnd       = NaN(p.events, maxNumRuns); 
+eventEnd      = NaN(p.events, maxNumRuns); 
+stimStartKey  = NaN(p.events, maxNumRuns); 
+stimEndKey    = NaN(p.events, maxNumRuns); 
+stimDuration  = NaN(p.events, maxNumRuns); 
+eventStartKey = NaN(p.events, maxNumRuns); 
 
-eventStartKey = NaN(p.events, n); 
+respTime = cell(p.events, maxNumRuns); 
+respKey  = cell(p.events, maxNumRuns); 
 
-respTime = cell(p.events, n); 
-respKey  = cell(p.events, n); 
-    % I use cells here so that responses can be empty when subjects time 
-    % out, and because responses from RTBox come back as strings. 
+firstPulse = NaN(1, maxNumRuns); 
+runEnd     = NaN(1, maxNumRuns); 
 
-firstPulse = NaN(1, n); 
-runEnd     = NaN(1, n); 
+%% File names
+if Training
+    filetag = [subj.Num '_' subj.Init '_practice_']; 
+else
+    filetag = [subj.Num '_' subj.Init '_']; 
+end
+
+ResultsTxt = [filetag 'lang_results.txt']; 
+ResultsXls = [filetag 'lang_results.xlsx']; 
+Variables  = [filetag 'lang_variables.mat']; 
     
-%% Load protocol master list, PTB, and stimuli
-cd(ScriptsLoc)
-load('master_scan_order.mat')
-protocol_order = cell(1, 6); 
-for event = 1:10
-    if master{1, event} == subj.Num
-        for k = 1:6
-            protocol_order{k} = master{k+1, event}; 
+%% Determine protocol
+if Training
+    protocol_order = {'multi'}; 
+else
+    cd(ScriptsLoc)
+    load('master_scan_order.mat')
+    protocol_order = cell(1, 6); 
+    for s = 1:10
+        if master{1, s} == subj.Num
+            for k = 1:6
+                protocol_order{k} = master{k+1, s}; 
+            end
         end
     end
+    cd(expDir)
 end
-cd(direc)
 
-% Open PTB screen on scanner, prepare fixation cross coords
+%% Load PTB and stimuli
+% PTB
 [wPtr, rect] = Screen('OpenWindow', 0, 185);
 DrawFormattedText(wPtr, 'Please wait, preparing experiment...');
-Screen('Flip', wPtr); 
+Screen('Flip', wPtr);
 centerX = rect(3)/2;
 centerY = rect(4)/2;
 crossCoords = [-30, 30, 0, 0; 0, 0, -30, 30]; 
 HideCursor(); 
 
-% Load stimuli and check counterbalance
+% Stimuli, check counterbalance
 cd(FuncsLoc) 
-[audio, fs, rawStimDuration, jitterKey, eventKey, answerKey, speechKey] = ...
-    LoadStimuliAndKeys(StimuliLoc, p.events, subj.firstRun, subj.lastRun, NumSpeechStimuli, Training);
+[audio, fs, rawStimDur, jitterKey, eventKey, answerKey, speechKey] = ...
+    LoadStimAndKeys(StimuliLoc, p.events, subj.firstRun, subj.lastRun, NumSpStim, maxNumRuns, Training);
 fs = fs{1}; % Above func checks that all fs are the same.  
 
-if Training
-    protocol_order = {'multi'}; 
-else
-    cd(FuncsLoc)
-    stimulicheck(NumSpeechStimuli, eventKey); 
-end
-cd(direc)
-
-% Open audio connection
 pahandle = PsychPortAudio('Open', [], [], [], fs);
-    % Stimuli are presented on the scanner computer, which shares a screen
-    % and audio output with the scanner projector and headphones. 
-    
+
+if ~Training
+    cd(FuncsLoc)
+    stimulicheck(NumSpStim, eventKey); 
+end
+cd(expDir)
+
+for i = subj.firstRun:subj.lastRun
+    stimDuration(:, i) = rawStimDur(eventKey(:,i))'; 
+end
+
 % Check if using RTBox or Keyboard
-if ConnectedToRTBox == 0
+if ~ConnectedToRTBox
     cd(RTBoxLoc)
     RTBox('fake', 1); 
-    cd(direc)
+    cd(expDir)
 end
-    
+
 %% Prepare test
 
 for run = subj.firstRun:subj.lastRun
     
     DrawFormattedText(wPtr, 'Please wait, preparing run...');
     Screen('Flip', wPtr); 
-    
-    % File names
-    if Training
-        filetag = [subj.Num '_' subj.Init '_practice']; 
-    else
-        filetag = [subj.Num '_' subj.Init]; 
-    end
-    ResultsTxt  = [filetag '_results.txt']; 
-    ResultsXls  = [filetag '_results.xlsx']; 
-    Variables   = [filetag '_variables.mat']; 
 
     % Prepare timing keys
-    eventStartKey(:,run) = p.epiTime + [0:p.eventTime:((p.events-1)*p.eventTime)]'; %#ok<NBRAK>
-    stimStartKey = eventStartKey + jitterKey; 
-    
+    eventStartKey(:, run) = p.epiTime + [0:p.eventTime:((p.events-1)*p.eventTime)]'; %#ok<NBRAK>
+    stimStartKey(:, run)  = eventStartKey(:, run) + jitterKey(:, run); 
+
     if Training
-        stimEndKey = stimStartKey + rawStimDuration(eventKey)';
+        stimEndKey = stimStartKey + rawStimDur(eventKey)';
     else
-        stimEndKey(:, subj.firstRun:subj.lastRun) = ... 
-            stimStartKey(:, subj.firstRun:subj.lastRun) + rawStimDuration(eventKey);
+        stimEndKey(:, run) = stimStartKey(:, run) + rawStimDur(eventKey(:,run))';
     end
     
     rxnEndKey   = stimEndKey + p.rxnWindow; 
@@ -204,9 +216,10 @@ for run = subj.firstRun:subj.lastRun
     if Training
         cd(FuncsLoc)
         DisplayInstructions_bkfw_rtbox(Instructions, wPtr, RTBoxLoc); 
-        cd(direc)
+        cd(expDir)
     end
-    DrawFormattedText(wPtr, 'Waiting for first pulse...'); 
+    DrawFormattedText(wPtr, ['Waiting for first pulse. ', ... 
+        protocol_order{run}, num2str(run)]); 
     Screen('Flip', wPtr); 
 
     % Wait for first pulse
@@ -220,11 +233,11 @@ for run = subj.firstRun:subj.lastRun
     Screen('Flip', wPtr); 
 
     % Generate absolute time keys
-    AbsEvStart   = firstPulse + eventStartKey; 
-    AbsStimStart = firstPulse + stimStartKey; 
-    AbsStimEnd   = firstPulse + stimEndKey; 
-    AbsRxnEnd    = firstPulse + rxnEndKey; 
-    AbsEvEnd     = firstPulse + eventEndKey; 
+    AbsEvStart   = firstPulse + eventStartKey(:,run); 
+    AbsStimStart = firstPulse + stimStartKey(:,run); 
+    AbsStimEnd   = firstPulse + stimEndKey(:,run); 
+    AbsRxnEnd    = firstPulse + rxnEndKey(:,run); 
+    AbsEvEnd     = firstPulse + eventEndKey(:,run); 
 
     WaitTill(firstPulse(run) + p.epiTime); 
 
@@ -233,7 +246,7 @@ for run = subj.firstRun:subj.lastRun
         for event = 1:p.events
             eventStart(event, run) = GetSecs(); 
             
-            PsychPortAudio('FillBuffer', pahandle, audio{eventKey(event)});
+            PsychPortAudio('FillBuffer', pahandle, audio{eventKey(event, run)});
             WaitTill(AbsStimStart(event, run)); 
 
             stimStart(event, run) = GetSecs; 
@@ -244,13 +257,12 @@ for run = subj.firstRun:subj.lastRun
 
             [respTime{event, run}, respKey{event, run}] = RTBox(AbsRxnEnd(event, run)); 
 
-            [~, eventEnd(event, run)] = WaitTill(AbsEvEnd(event, run));    
+            WaitTill(AbsEvEnd(event, run));    
+            eventEnd(event, run) = GetSecs(); 
         end
         
         WaitSecs(p.eventTime); 
         runEnd(run) = GetSecs(); 
-        
-
         
     catch err
         sca; 
@@ -258,27 +270,29 @@ for run = subj.firstRun:subj.lastRun
         cd(FuncsLoc)
         OutputData
         cd(ScriptsLoc)
+        PsychPortAudio('Close'); 
         rethrow(err)
     end
     
     if run ~= subj.lastRun
-    endstring = ['End of run. Nice job! Experimenters, prepare for '...
-    	protocol_order{run+1}, num2str(run+1)]; 
-	DrawFormattedText(wPtr, endstring); 
-	Screen('Flip', wPtr)
-    RTBox('Clear'); 
-    RTBox(inf); 
+        endstring = ['End of run. Nice job! Experimenters, prepare for '...
+            protocol_order{run+1}, num2str(run+1)]; 
+        DrawFormattedText(wPtr, endstring); 
+        Screen('Flip', wPtr); 
+        RTBox('Clear'); 
+        RTBox(inf); 
     end 
 
 end
 
-%% Save data
-cd(FuncsLoc)
-OutputData
-cd(ScriptsLoc)
-    
 %% Closing down
 Screen('CloseAll');
 PsychPortAudio('Close'); 
-cd(ScriptsLoc)
 DisableKeysForKbCheck([]); 
+
+%% Save data
+cd(FuncsLoc)
+disp('Please wait, saving data...')
+OutputData
+disp('All done!')
+cd(ScriptsLoc)

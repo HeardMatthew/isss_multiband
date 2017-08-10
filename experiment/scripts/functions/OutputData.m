@@ -2,41 +2,29 @@
 % Saves data into a txt and xlsx file. Run as part of the main experiment 
 % script. Author -- Matt H
 
-%% Saving relevant timing information
-% Convert to relative time, instead of system
-actualJitter        = stimStart - eventStart; 
-actualStimDuration  = stimEnd - stimStart; 
-actualEventDuration = eventEnd - eventStart; 
-stimDurationPrint   = NaN(p.events, n); 
-if Training 
-    speechKeyPrint  = NaN(5, 1); % This might be wrong, check later
-else
-    speechKeyPrint  = NaN(8, n); 
-end
-eventKeyPrint       = NaN(p.events, n); 
-answerKeyPrint      = NaN(p.events, n); 
+% CHANGELOG
+% 08/08/17  Started keeping changelog. --MH
+% 08/08/17  Now allows for mulitple runs. --MH
+% 08/10/17  Ready for subject 3. --MH
 
-% Print variables have the required size, even if the run nums are weird
-stimDurationPrint(:, subj.firstRun:subj.lastRun) = stimDuration(eventKey); 
-speechKeyPrint(:, subj.firstRun:subj.lastRun) = speechKey; 
-eventKeyPrint(:, subj.firstRun:subj.lastRun) = eventKey; 
-answerKeyPrint(:, subj.firstRun:subj.lastRun) = answerKey; 
+%% Preallocate all variables
+% Timing and subject response
+reaction = NaN(p.events, maxNumRuns); 
+response = NaN(p.events, maxNumRuns); 
 
-if Training
-    stimDurationTemp = stimDuration(eventKey)'; 
-else
-    stimDurationTemp = stimDuration(eventKey); 
-end
-    
+% Xls file
 headers = {'Jitter key', 'Actual jitter', ... 
         'Stim duration key', 'Actual stim duration', ...
         'Event duration', 'Event key', 'Answer key', ... 
         'Subj response', 'RT'}; 
 
-runDuration = runEnd - firstPulse; 
+%% Saving relevant timing information
+% Convert to relative time, instead of system
+runDur = runEnd - firstPulse; 
 
-reaction = NaN(p.events, 6); 
-response = NaN(p.events, 6); 
+actJit       = stimStart - eventStart; 
+actStimDur   = stimEnd - stimStart; 
+actEventDur  = eventEnd - eventStart; 
 
 % Convert keys from cells to vectors
 for i = 1:p.events
@@ -66,6 +54,10 @@ while exist(ResultsTxt, 'file') == 2
 	ResultsTxt = [ResultsTxt(1:end-4), '_new', ResultsTxt(end-3:end)]; 
 end
 
+while exist(Variables, 'file') == 2
+	Variables = [Variables(1:end-4), '_new', Variables(end-3:end)]; 
+end
+
 %% Prepare to print to txt file
 fid = fopen(ResultsTxt, 'w');    
 dstring = '';
@@ -77,10 +69,13 @@ for i = 1:p.events
     fstring = strcat(fstring, ' %f ');
 end
 
-for i = 1:NumSpeechStimuli/4
-    smalldstring = strcat(smalldstring, ' %d ');
+if Training
+    smalldstring = ' %d  %d  %d  %d '; 
+else
+    for i = 1:NumSpStim/4
+        smalldstring = strcat(smalldstring, ' %d ');
+    end
 end
-
 
 %% Begin printing to txt file
 for run = subj.firstRun:subj.lastRun
@@ -89,38 +84,40 @@ for run = subj.firstRun:subj.lastRun
     
     % Timing data
     fprintf(fid, '# Timing data \n'); 
+    
     fprintf(fid, 'Run started %6.2f after code started \n', ...
         firstPulse(run) - codeStart); 
-    fprintf(fid, 'Run duration: %6.2f \n', runDuration(run));
+    fprintf(fid, 'Run duration: %6.2f \n', runDur(run));
     fprintf(fid, 'Expected run duration: %6.2f \n', p.runDuration); 
 
     jitterstring = ['Jitter key (msec): ', fstring, '\n']; 
     fprintf(fid, jitterstring, (jitterKey(:, run) * 1000)); 
 
     actualjitterstring = ['Actual jitter (msec): ', fstring, '\n']; 
-    fprintf(fid, actualjitterstring, (actualJitter(:, run) * 1000)); 
+    fprintf(fid, actualjitterstring, (actJit(:, run) * 1000)); 
 
     stimulistring = ['Stimuli duration key: ', fstring, '\n'];
-    fprintf(fid, stimulistring, stimDurationPrint(:, run));
+    fprintf(fid, stimulistring, stimDuration(:, run));
 
     actualstimulistring = ['Actual stimuli duration: ', fstring, '\n']; 
-    fprintf(fid, actualstimulistring, actualStimDuration(:, run)); 
+    fprintf(fid, actualstimulistring, actStimDur(:, run)); 
 
     eventdurationstring = ['Event duration: ', fstring, '\n']; 
-    fprintf(fid, eventdurationstring, actualEventDuration(:,run)); 
+    fprintf(fid, eventdurationstring, actEventDur(:,run)); 
 
     fprintf(fid, 'Expected total duration: %f \n', p.eventTime); 
 
     % Stimuli data
     fprintf(fid, '# Stimuli data \n'); 
+    
     speechstring = ['Speech samples used: ', smalldstring, '\n']; 
-    fprintf(fid, speechstring, speechKeyPrint(:,run)); 
+    fprintf(fid, speechstring, speechKey(:,run)); 
 
     keystring = ['Event key: ', dstring, '\n'];
-    fprintf(fid, keystring, eventKeyPrint(:,run));
+    fprintf(fid, keystring, eventKey(:,run));
 
     ansstring = ['Answer key: ', dstring, '\n'];
-    fprintf(fid, ansstring, answerKeyPrint(:,run)); 
+    fprintf(fid, ansstring, answerKey(:,run)); 
 
     % Subject data
     fprintf(fid, '# Response data \n'); 
@@ -136,10 +133,10 @@ for run = subj.firstRun:subj.lastRun
     %% Prepare to print to xlsx file
     data = cell(p.events + 1, 9); 
     
-    M    = horzcat(jitterKey(:,run), actualJitter(:,run), ...
-        stimDurationPrint(:,run), actualStimDuration(:,run), ... 
-        actualEventDuration(:,run), ...
-        eventKeyPrint(:,run), answerKeyPrint(:,run), ...
+    M    = horzcat(jitterKey(:,run), actJit(:,run), ...
+        stimDuration(:,run), actStimDur(:,run), ... 
+        actEventDur(:,run), ...
+        eventKey(:,run), answerKey(:,run), ...
         response(:,run), reaction(:,run)); 
 
     data(1,:) = headers; 
@@ -154,7 +151,7 @@ for run = subj.firstRun:subj.lastRun
     if run ~= 1
         for i = 1:run - 1
             if strcmp(protocol_order{run}, protocol_order{i})
-                protocol_order{run} = [protocol_order{run}, '2']; 
+                protocol_order{run} = [protocol_order{run}, '2'];  %#ok<SAGROW>
             end
         end
     end

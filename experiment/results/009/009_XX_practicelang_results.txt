@@ -1,0 +1,20 @@
+DATA FOR RUN 1 ---------- 
+SCAN TYPE:  multi 
+# Timing data 
+Run started  36.32 after code started 
+Run duration:  94.00 
+Expected run duration: 248.00 
+Jitter key (msec):  1324.855439 1246.228114 1342.713221 1375.692140 1546.553793
+Actual jitter (msec):  1324.452038 1246.197214 1342.647925 1376.926255 1546.521095
+Stimuli duration key:  1.880816 1.869206 1.744399 1.753107 1.747302
+Actual stimuli duration:  1.880767 1.869227 1.744453 1.751846 1.747286
+Event duration:  13.999586 13.999977 13.999927 14.000035 13.999969
+Expected total duration: 14.000000 
+# Stimuli data 
+Speech samples used:  1  2  3  4 
+Event key:  2 3 4 1 5
+Answer key:  2 1 2 1 3
+# Response data 
+Subject responses:  0 0 0 0 0
+Reaction time (msec):  NaN NaN NaN NaN NaN
+

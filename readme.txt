@@ -84,28 +84,8 @@ First subject: Errors in Rhythm code associated with timing (same as we had earl
   $ Add training component (lang task) to use within the scan to help assess volume of stimuli
       ~6 trials, with multiband imaging
       Have feedback
+Subject 3: Scripts are completely ready to go. 
   
-  1. Create master list for scan order across all subjects. DONE
-  2. Stop script from quitting between runs. READY FOR FULL TEST
-      Add an additional FOR loop that runs from "firstscan" to "lastscan"
-      Load in the master list so that script knows how to save behavioral data
-      Have script save all data if user presses ESCAPE. 
-      Have a similar design for rhythm
-  3. Update instructions 
-  4. Create training block
-      5 events: 1 OR male, 1 SR male, 1 OR female, 1 SR female, 1 NOISE
-    
-  
-  
-  BEFORE 1st SUBJECT
-  $ Print ALL forms needed (consent in particular) 
-  $ Get RDT from Sang for tomorrow's pre-scan practice
-      Run on my computer
-      Ask Shane if he can install OpenSesame to test computer in CCBBI
-  $ Prepare for pre-scan stuff
-      Make a master list for scan order
-  $ Prepare for scan
-      Double check both experiments work
   
 Future versions: 
   $ Preprocessing results
