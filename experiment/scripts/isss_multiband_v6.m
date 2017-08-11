@@ -81,7 +81,7 @@ p.runDuration = p.epiTime + ...   % After first pulse
     p.eventTime;                  % After last acquisition
 
 p.rxnWindow = 3.000;  % 3 seconds
-p.jitWindow = 1.000;  % 1 second, see notes below
+p.jitWindow = 0.900;  % 1 second, see notes below
     % For this experiment, the first second of the silent window will not
     % have stimuli presented. To code for this, I add an additional 1 s
     % to the jitterKey. So, the jitter window ranges from 1 s to 2 s.
@@ -122,6 +122,12 @@ stimStartKey  = NaN(p.events, maxNumRuns);
 stimEndKey    = NaN(p.events, maxNumRuns); 
 stimDuration  = NaN(p.events, maxNumRuns); 
 eventStartKey = NaN(p.events, maxNumRuns); 
+
+AbsEvStart   = NaN(p.events, maxNumRuns); 
+AbsStimStart = NaN(p.events, maxNumRuns); 
+AbsStimEnd   = NaN(p.events, maxNumRuns); 
+AbsRxnEnd    = NaN(p.events, maxNumRuns); 
+AbsEvEnd     = NaN(p.events, maxNumRuns); 
 
 respTime = cell(p.events, maxNumRuns); 
 respKey  = cell(p.events, maxNumRuns); 
@@ -193,59 +199,60 @@ if ~ConnectedToRTBox
 end
 
 %% Prepare test
+try
+    for run = subj.firstRun:subj.lastRun
 
-for run = subj.firstRun:subj.lastRun
-    
-    DrawFormattedText(wPtr, 'Please wait, preparing run...');
-    Screen('Flip', wPtr); 
+        DrawFormattedText(wPtr, 'Please wait, preparing run...');
+        Screen('Flip', wPtr); 
 
-    % Prepare timing keys
-    eventStartKey(:, run) = p.epiTime + [0:p.eventTime:((p.events-1)*p.eventTime)]'; %#ok<NBRAK>
-    stimStartKey(:, run)  = eventStartKey(:, run) + jitterKey(:, run); 
+        % Prepare timing keys
+        eventStartKey(:, run) = p.epiTime + [0:p.eventTime:((p.events-1)*p.eventTime)]'; %#ok<NBRAK>
+        stimStartKey(:, run)  = eventStartKey(:, run) + jitterKey(:, run); 
 
-    if Training
-        stimEndKey = stimStartKey + rawStimDur(eventKey)';
-    else
-        stimEndKey(:, run) = stimStartKey(:, run) + rawStimDur(eventKey(:,run))';
-    end
-    
-    rxnEndKey   = stimEndKey + p.rxnWindow; 
-    eventEndKey = eventStartKey + p.eventTime;
+        if Training
+            stimEndKey = stimStartKey + rawStimDur(eventKey)';
+        else
+            stimEndKey(:, run) = stimStartKey(:, run) + rawStimDur(eventKey(:,run))';
+        end
 
-    % Display instructions
-    if Training
-        cd(FuncsLoc)
-        DisplayInstructions_bkfw_rtbox(Instructions, wPtr, RTBoxLoc); 
-        cd(expDir)
-    end
-    DrawFormattedText(wPtr, ['Waiting for first pulse. ', ... 
-        protocol_order{run}, num2str(run)]); 
-    Screen('Flip', wPtr); 
+        rxnEndKey   = stimEndKey + p.rxnWindow; 
+        eventEndKey = eventStartKey + p.eventTime;
 
-    % Wait for first pulse
-    cd(RTBoxLoc)
-    RTBox('Clear'); 
-    RTBox('UntilTimeout', 1);
-    firstPulse(run) = RTBox('WaitTR'); 
+        % Display instructions
+        if Training
+            cd(FuncsLoc)
+            DisplayInstructions_bkfw_rtbox(Instructions, wPtr, RTBoxLoc); 
+            cd(expDir)
+        end
 
-    % Draw onto screen after recieving first pulse
-    Screen('DrawLines', wPtr, crossCoords, 2, 0, [centerX, centerY]);
-    Screen('Flip', wPtr); 
 
-    % Generate absolute time keys
-    AbsEvStart   = firstPulse + eventStartKey(:,run); 
-    AbsStimStart = firstPulse + stimStartKey(:,run); 
-    AbsStimEnd   = firstPulse + stimEndKey(:,run); 
-    AbsRxnEnd    = firstPulse + rxnEndKey(:,run); 
-    AbsEvEnd     = firstPulse + eventEndKey(:,run); 
+        % Wait for first pulse
+        DrawFormattedText(wPtr, ['Waiting for first pulse. ', ... 
+            protocol_order{run}, num2str(run)]); 
+        Screen('Flip', wPtr); 
+        
+        cd(RTBoxLoc)
+        RTBox('Clear'); 
+        RTBox('UntilTimeout', 1);
+        firstPulse(run) = RTBox('WaitTR'); 
 
-    WaitTill(firstPulse(run) + p.epiTime); 
+        % Draw onto screen after recieving first pulse
+        Screen('DrawLines', wPtr, crossCoords, 2, 0, [centerX, centerY]);
+        Screen('Flip', wPtr); 
 
-    %% Present audio stimuli
-    try
+        % Generate absolute time keys
+        AbsEvStart(:, run)   = firstPulse(run) + eventStartKey(:,run); 
+        AbsStimStart(:, run) = firstPulse(run) + stimStartKey(:,run); 
+        AbsStimEnd(:, run)   = firstPulse(run) + stimEndKey(:,run); 
+        AbsRxnEnd(:, run)    = firstPulse(run) + rxnEndKey(:,run); 
+        AbsEvEnd(:, run)     = firstPulse(run) + eventEndKey(:,run); 
+
+        WaitTill(firstPulse(run) + p.epiTime); 
+
+        %% Present audio stimuli
         for event = 1:p.events
             eventStart(event, run) = GetSecs(); 
-            
+
             PsychPortAudio('FillBuffer', pahandle, audio{eventKey(event, run)});
             WaitTill(AbsStimStart(event, run)); 
 
@@ -260,31 +267,31 @@ for run = subj.firstRun:subj.lastRun
             WaitTill(AbsEvEnd(event, run));    
             eventEnd(event, run) = GetSecs(); 
         end
-        
+
         WaitSecs(p.eventTime); 
         runEnd(run) = GetSecs(); 
+
+        if run ~= subj.lastRun
+            endstring = ['End of run. Press any button when ready to continue. Experimenters, prepare for '...
+                protocol_order{run+1}, num2str(run+1)]; 
+            DrawFormattedText(wPtr, endstring); 
+            Screen('Flip', wPtr); 
+            RTBox('Clear'); 
+            RTBox(inf); 
+        end 
+            
         
-    catch err
-        sca; 
-        runEnd(run) = GetSecs();  %#ok<NASGU>
-        cd(FuncsLoc)
-        OutputData
-        cd(ScriptsLoc)
-        PsychPortAudio('Close'); 
-        rethrow(err)
     end
     
-    if run ~= subj.lastRun
-        endstring = ['End of run. Nice job! Experimenters, prepare for '...
-            protocol_order{run+1}, num2str(run+1)]; 
-        DrawFormattedText(wPtr, endstring); 
-        Screen('Flip', wPtr); 
-        RTBox('Clear'); 
-        RTBox(inf); 
-    end 
-
+catch err
+    sca; 
+    runEnd(run) = GetSecs();  %#ok<NASGU>
+    cd(FuncsLoc)
+    OutputData
+    cd(ScriptsLoc)
+    PsychPortAudio('Close'); 
+    rethrow(err)
 end
-
 %% Closing down
 Screen('CloseAll');
 PsychPortAudio('Close'); 

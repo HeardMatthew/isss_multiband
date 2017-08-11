@@ -64,11 +64,11 @@ end
 %% Make keys
 % jitkey -- How much is the silent period jittered by?
 if train
-    jitkey = 1 + rand(numEvents, 1);
+    jitkey = 0.9 + rand(numEvents, 1);
 else
     jitkey = NaN(numEvents, 6);
     for i = firstRun:lastRun
-        jitkey(:, i) = 1 + rand(numEvents, 1); % Add 1 because stimuli are short-ish
+        jitkey(:, i) = 0.9 + rand(numEvents, 1); % Add 1 because stimuli are short-ish
     end
 end
 

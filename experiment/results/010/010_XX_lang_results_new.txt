@@ -1,0 +1,114 @@
+DATA FOR RUN 1 ---------- 
+SCAN TYPE: hybrid 
+# Timing data 
+Run started  22.35 after code started 
+Run duration: 248.00 
+Expected run duration: 248.00 
+Jitter key (msec):  920.535775 1823.675613 1553.699889 1832.613572 1063.512369 1821.097256 1694.657885 1477.394197 1340.035596 1157.613737 1651.946394 1128.669482 964.187087 1667.329511 1571.202185 1615.212515
+Actual jitter (msec):  920.473247 1823.689284 1555.269329 1832.535713 1063.504952 1821.057748 1694.752325 1477.369682 1340.016168 1158.314379 1651.913422 1128.623857 964.111267 1667.254162 1571.223442 1615.136389
+Stimuli duration key:  1.800000 1.800000 1.721179 1.875011 1.671837 1.875011 1.811156 1.648617 1.756009 1.800000 1.584762 1.668934 1.800000 1.610884 1.872109 1.793741
+Actual stimuli duration:  1.800022 1.799944 1.719524 1.875026 1.671761 1.874925 1.810993 1.648602 1.755986 1.799308 1.584782 1.668997 1.800108 1.611049 1.872070 1.793808
+Event duration:  13.999902 14.000017 13.999971 13.999976 14.000019 13.999949 13.999966 13.999978 13.999935 14.000027 13.999995 14.000005 13.999989 13.999954 14.000055 13.999931
+Expected total duration: 14.000000 
+# Stimuli data 
+Speech samples used:  1 6 11 16 17 23 26 32 Event key:  198 197 193 26 11 32 195 6 194 199 1 17 200 16 196 23
+Answer key:  0 0 3 2 1 2 3 2 3 0 1 1 0 2 3 1
+# Response data 
+Subject responses:  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Reaction time (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+
+DATA FOR RUN 2 ---------- 
+SCAN TYPE:  multi 
+# Timing data 
+Run started    NaN after code started 
+Run duration:    NaN 
+Expected run duration: 248.00 
+Jitter key (msec):  1542.060828 1319.048294 1290.762082 1716.140103 1217.427864 1714.539773 1689.073515 1752.263890 1405.636618 1535.661389 1850.894415 1343.964155 960.018820 1766.749897 1531.188734 1255.073652
+Actual jitter (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Stimuli duration key:  1.756009 1.848889 1.634104 1.576054 1.753107 1.753107 1.721179 1.872109 1.800000 1.811156 1.726984 1.700862 1.800000 1.800000 1.814059 1.800000
+Actual stimuli duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Event duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Expected total duration: 14.000000 
+# Stimuli data 
+Speech samples used:  34 38 41 48 51 56 57 63 Event key:  194 63 38 48 34 41 193 196 199 195 51 57 198 200 56 197
+Answer key:  3 1 2 2 2 1 3 3 0 3 1 1 0 0 2 0
+# Response data 
+Subject responses:  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Reaction time (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+
+DATA FOR RUN 3 ---------- 
+SCAN TYPE:  multi 
+# Timing data 
+Run started    NaN after code started 
+Run duration:    NaN 
+Expected run duration: 248.00 
+Jitter key (msec):  1897.003272 1124.171499 1552.451073 1504.990642 1287.245431 1042.187159 925.134986 1321.112254 1084.100289 1625.775267 1270.362687 1741.560087 1634.229691 1471.025873 1076.855058 1857.384023
+Actual jitter (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Stimuli duration key:  1.721179 1.793741 1.800000 1.703764 1.770522 1.800000 1.873560 1.811156 1.872109 1.756009 1.800000 1.872109 1.800000 1.741497 1.843084 1.776327
+Actual stimuli duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Event duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Expected total duration: 14.000000 
+# Stimuli data 
+Speech samples used:  67 71 74 77 82 88 89 96 Event key:  193 67 200 89 71 197 88 195 82 194 198 196 199 77 74 96
+Answer key:  3 1 0 1 1 0 2 3 2 3 0 3 0 1 2 2
+# Response data 
+Subject responses:  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Reaction time (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+
+DATA FOR RUN 4 ---------- 
+SCAN TYPE: hybrid 
+# Timing data 
+Run started    NaN after code started 
+Run duration:    NaN 
+Expected run duration: 248.00 
+Jitter key (msec):  1165.322036 1824.580895 1123.770405 1273.563808 987.500350 1540.116548 1080.616888 945.051107 1623.173479 1247.437646 1560.616825 1283.868601 1527.346502 921.649815 1810.569989 1700.558656
+Actual jitter (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Stimuli duration key:  1.800000 1.872109 1.622494 1.660227 1.758912 1.721179 1.692154 1.677642 1.668934 1.756009 1.800000 1.938866 1.800000 1.800000 1.811156 1.869206
+Actual stimuli duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Event duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Expected total duration: 14.000000 
+# Stimuli data 
+Speech samples used:  100 104 106 109 115 119 122 125 Event key:  200 196 109 119 125 193 106 100 115 194 198 122 197 199 195 104
+Answer key:  0 3 1 1 1 3 2 2 1 3 0 2 0 0 3 2
+# Response data 
+Subject responses:  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Reaction time (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+
+DATA FOR RUN 5 ---------- 
+SCAN TYPE:   isss 
+# Timing data 
+Run started    NaN after code started 
+Run duration:    NaN 
+Expected run duration: 248.00 
+Jitter key (msec):  1645.847484 1713.112814 1283.306319 1517.279232 1475.494860 1430.051705 1175.069756 1148.628960 1351.638770 1127.712826 1704.449584 1886.104242 929.991950 1435.664191 987.077220 1702.091441
+Actual jitter (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Stimuli duration key:  1.721179 1.625397 1.872109 1.834376 1.800000 1.756009 1.837279 1.811156 1.869206 1.494785 1.676689 1.790839 1.764717 1.800000 1.800000 1.800000
+Actual stimuli duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Event duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Expected total duration: 14.000000 
+# Stimuli data 
+Speech samples used:  131 133 138 141 148 150 155 160 Event key:  193 141 196 138 199 194 131 195 155 150 160 133 148 197 200 198
+Answer key:  3 1 3 2 0 3 1 3 1 2 2 1 2 0 0 0
+# Response data 
+Subject responses:  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Reaction time (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+
+DATA FOR RUN 6 ---------- 
+SCAN TYPE:   isss 
+# Timing data 
+Run started    NaN after code started 
+Run duration:    NaN 
+Expected run duration: 248.00 
+Jitter key (msec):  1889.144910 966.946258 1839.398362 918.177534 1583.838614 1683.736480 1434.137568 1785.359451 1799.004899 1525.937626 1037.868992 1117.801594 1082.141076 941.819864 1006.941659 1516.443485
+Actual jitter (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Stimuli duration key:  1.800000 1.741497 1.793741 1.800000 1.756009 1.573152 1.811156 1.610884 1.697959 1.872109 1.800000 1.532517 1.666032 1.721179 1.872109 1.800000
+Actual stimuli duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Event duration:  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+Expected total duration: 14.000000 
+# Stimuli data 
+Speech samples used:  161 167 171 173 180 184 186 190 Event key:  197 161 171 199 194 180 195 190 186 173 200 184 167 193 196 198
+Answer key:  0 1 1 0 3 2 3 2 2 1 0 2 1 3 3 0
+# Response data 
+Subject responses:  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Reaction time (msec):  NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+

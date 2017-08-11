@@ -22,13 +22,11 @@ catch
 end
 
 InitializePsychSound
-
 clearvars; clc; 
 codeStart = GetSecs(); 
-
-%% Parameters
 AudioDevice = PsychPortAudio('GetDevices', 3); 
 
+%% Parameters
 % Subject info
 prompt = {...
     'Subject number (###):', ...
@@ -58,16 +56,19 @@ scan.TR = 1.000;
 scan.epiNum = 10; 
 
 % Timing
-p.runs        = length(subj.firstRun:subj.lastRun); 
-p.events      = 20;     % 20 events (16 stim + 2 silent + 2 oddball)
-p.presTime    = 4.000;  % 4 seconds
-p.epiTime     = 10.000; % 10 seconds
-p.eventTime   = p.presTime + p.epiTime;
+p.runs   = length(subj.firstRun:subj.lastRun); 
+p.events = 20;     % 20 events (16 stim + 2 silent + 2 oddball)
+
+p.presTime  = 4.000;  % 4 seconds
+p.epiTime   = 10.000; % 10 seconds
+p.eventTime = p.presTime + p.epiTime;
+
 p.runDuration = p.epiTime + ...   % After first pulse
     p.eventTime * p.events + ...  % Each event
     p.eventTime;                  % After last acquisition
-p.rxnWindow   = 3.000;  % 3 seconds
-p.jitWindow   = [1.000, 2.300];  % Varies, see notes below
+
+p.rxnWindow = 3.000;  % 3 seconds
+p.jitWindow = [1.000, 2.300];  % Varies, see notes below
     % For this experiment, each stimuli onset will be jittered. However,
     % stimuli may vary in duration. "Long" stimuli last 3.0 seconds, while
     % "short" stimuli are 1.7 seconds. So, jitter can be either up to 1.000
@@ -101,19 +102,26 @@ stimStartKey  = NaN(p.events, maxNumRuns);
 stimEndKey    = NaN(p.events, maxNumRuns); 
 eventStartKey = NaN(p.events, maxNumRuns); 
 
+AbsEvStart   = NaN(p.events, maxNumRuns); 
+AbsStimStart = NaN(p.events, maxNumRuns); 
+AbsStimEnd   = NaN(p.events, maxNumRuns); 
+AbsRxnEnd    = NaN(p.events, maxNumRuns); 
+AbsEvEnd     = NaN(p.events, maxNumRuns); 
+
 respTime = cell(p.events, maxNumRuns); 
 respKey  = cell(p.events, maxNumRuns); 
     
 firstPulse = NaN(1, maxNumRuns);
 runEnd     = NaN(1, maxNumRuns); 
 
-%% Prepare experiment
-% File names
+
+%% File names
 filetag    = [subj.Num '_' subj.Init '_']; 
 ResultsTxt = [filetag 'rhythm_results.txt']; 
 ResultsXls = [filetag 'rhythm_results.xlsx']; 
 Variables  = [filetag 'rhythm_variables.mat']; 
 
+%% Prepare experiment
 % Load stimuli and check counterbalance
 cd(FuncsLoc) 
 [audio, fs, rawStimDur, jitterKey, eventKey, answerKey, rhythmKey] = ...
@@ -126,8 +134,7 @@ cd(expDir)
 frameDuration = Screen('GetFlipInterval', wPtr);
 
 font = 'Cambria'; % The best font. 
-fontsize = 72;
-
+fontsize = 40;
 Screen('TextFont',  wPtr, font); 
 Screen('TextSize',  wPtr, fontsize);
 Screen('TextStyle', wPtr, 2);
@@ -142,8 +149,6 @@ pahandle = PsychPortAudio('Open', [], [], [], fs);
 % Play a silent audio clip just to eliminate clipping on first presentation
 PsychPortAudio('FillBuffer', pahandle, audio{8});
 PsychPortAudio('Start', pahandle, 1);
-    % Stimuli are presented on the scanner computer, which shares a screen
-    % and audio output with the scanner projector and headphones. 
 
 % Check if using RTBox or Keyboard
 if ConnectedToRTBox == 0
@@ -153,49 +158,47 @@ if ConnectedToRTBox == 0
 end
 
 %% Prepare each run
+try
+    for run = subj.firstRun:subj.lastRun
 
-for run = subj.firstRun:subj.lastRun
-    
-    DrawFormattedText(wPtr, 'Please wait, preparing run...');
-    Screen('Flip', wPtr); 
+        DrawFormattedText(wPtr, 'Please wait, preparing run...');
+        Screen('Flip', wPtr); 
 
-	% Prepare timing keys
-    eventStartKey(:, run) = p.epiTime + [0:p.eventTime:((p.events-1)*p.eventTime)]'; %#ok<NBRAK>
-    stimStartKey(:, run)  = eventStartKey(:, run) + jitterKey(:, run); 
+        % Prepare timing keys
+        eventStartKey(:, run) = p.epiTime + [0:p.eventTime:((p.events-1)*p.eventTime)]'; %#ok<NBRAK>
+        stimStartKey(:, run)  = eventStartKey(:, run) + jitterKey(:, run); 
 
-    stimEndKey(:, run) = stimStartKey(:, run) + rawStimDur(eventKey(:, run))';
-    
-    rxnEndKey   = stimEndKey + p.rxnWindow; 
-    eventEndKey = eventStartKey + p.eventTime;
-    
-    % Wait for first pulse
-    DrawFormattedText(wPtr, 'Waiting for first pulse...'); 
-    Screen('Flip', wPtr); 
+        stimEndKey(:, run) = stimStartKey(:, run) + rawStimDur(eventKey(:, run))';
 
-    cd(RTBoxLoc)
-    RTBox('Clear'); 
-    RTBox('UntilTimeout', 1);
-    firstPulse(run) = RTBox('WaitTR'); 
+        rxnEndKey   = stimEndKey + p.rxnWindow; 
+        eventEndKey = eventStartKey + p.eventTime;
 
-    % Draw onto screen after recieving first pulse
-    Screen('DrawLines', wPtr, crossCoords, 2, 0, [centerX, centerY]);
-    Screen('Flip', wPtr); 
+        % Wait for first pulse
+        DrawFormattedText(wPtr, 'Waiting for first pulse...'); 
+        Screen('Flip', wPtr); 
 
-    % Generate absolute time keys
-    AbsEvStart   = firstPulse + eventStartKey(:,run); 
-    AbsStimStart = firstPulse + stimStartKey(:,run); 
-    AbsStimEnd   = firstPulse + stimEndKey(:,run); 
-    AbsRxnEnd    = firstPulse + rxnEndKey(:,run); 
-    AbsEvEnd     = firstPulse + eventEndKey(:,run); 
+        cd(RTBoxLoc)
+        RTBox('Clear'); 
+        RTBox('UntilTimeout', 1);
+        firstPulse(run) = RTBox('WaitTR'); 
 
-    WaitTill(firstPulse(run) + p.epiTime); 
+        % Draw onto screen after recieving first pulse
+        Screen('DrawLines', wPtr, crossCoords, 2, 0, [centerX, centerY]);
+        Screen('Flip', wPtr); 
 
-    %% Present audio stimuli
+        % Generate absolute time keys
+        AbsEvStart(:, run)   = firstPulse(run) + eventStartKey(:,run); 
+        AbsStimStart(:, run) = firstPulse(run) + stimStartKey(:,run); 
+        AbsStimEnd(:, run)   = firstPulse(run) + stimEndKey(:,run); 
+        AbsRxnEnd(:, run)    = firstPulse(run) + rxnEndKey(:,run); 
+        AbsEvEnd(:, run)     = firstPulse(run) + eventEndKey(:,run); 
 
-    try
+        WaitTill(firstPulse(run) + p.epiTime); 
+
+        %% Present audio stimuli
         for event = 1:p.events
             eventStart(event, run) = GetSecs(); 
-            
+
             PsychPortAudio('FillBuffer', pahandle, audio{eventKey(event, run)});
             WaitTill(AbsStimStart(event, run)); 
 
@@ -207,29 +210,30 @@ for run = subj.firstRun:subj.lastRun
 
             [respTime{event, run}, respKey{event, run}] = RTBox(AbsRxnEnd(event, run)); 
 
-            [~, eventEnd(event, run)] = WaitTill(AbsEvEnd(event, run));    
+            WaitTill(AbsEvEnd(event, run));    
+            eventEnd(event, run) = GetSecs(); 
         end
-        
+
         WaitSecs(p.eventTime); 
         runEnd(run) = GetSecs(); 
 
-    catch err
-        sca; 
-        runEnd(run) = GetSecs();  %#ok<NASGU>
-        cd(FuncsLoc)
-        OutputData_rhythm
-        cd(ScriptsLoc)
-        PsychPortAudio('Close'); 
-        rethrow(err)
+        if run ~= subj.lastRun 
+            endstring = 'End of run. Press any button when ready to continue.'; 
+            DrawFormattedText(wPtr, endstring); 
+            Screen('Flip', wPtr)
+            RTBox('Clear'); 
+            RTBox(inf); 
+        end 
     end
     
-	if run ~= subj.lastRun %#ok<ALIGN>
-        endstring = 'End of run. Nice job! Press any button when ready to continue.'; 
-        DrawFormattedText(wPtr, endstring); 
-        Screen('Flip', wPtr)
-        RTBox('Clear'); 
-        RTBox(inf); 
-    end 
+catch err
+    sca; 
+    runEnd(run) = GetSecs();  %#ok<NASGU>
+    cd(FuncsLoc)
+    OutputData_rhythm
+    cd(ScriptsLoc)
+    PsychPortAudio('Close'); 
+    rethrow(err)
 end
 
 %% Closing down

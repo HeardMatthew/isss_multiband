@@ -6,7 +6,7 @@ function DisplayInstructions_bkfw_rtbox(filename, windowPointer, rtboxloc)
 
 % Set properties of display
 font = 'Cambria'; % The best font. 
-size = 72;
+size = 40;
 
 % Read instructions into cell array
 fid = fopen(filename, 'r'); 
