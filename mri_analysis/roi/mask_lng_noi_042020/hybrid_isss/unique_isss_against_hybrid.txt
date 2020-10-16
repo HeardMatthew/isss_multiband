@@ -1,0 +1,9 @@
+left IFG/PMC/anterior insula/temporal pole/STG
+right PMC/anterior insula/temporal pole
+right cerebellum
+pre-SMA
+left intraparietal lobule
+right thalamus
+anterior brainstem
+right intraparietal lobule
+right inferior cerebellum

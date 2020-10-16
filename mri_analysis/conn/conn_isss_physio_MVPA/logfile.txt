@@ -1,0 +1,193 @@
+2020-Apr-24 17:12  : Checking if data files have been edited or moved
+2020-Apr-24 17:13  : Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_MVPA.mat loaded
+                     CONN: RUNNING SETUP.PREPROCESSING STEP
+                     Preparing functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     regression of temporal component (White Matter CSF )
+                     dimensions = [2 2]; derivatives = [0 0]; skip = 1; detrend = 1
+2020-Apr-24 17:30  : Performing functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     Done functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     Importing results to CONN project
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_MVPA.mat
+                     Done
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_MVPA.mat
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_MVPA.mat
+2020-Apr-30 13:23  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_MVPA.mat loaded
+2020-Apr-30 13:24  : CONN: RUNNING SETUP.PREPROCESSING STEP
+                     Preparing functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     regression of temporal component (White Matter CSF )
+                     dimensions = [2 2]; derivatives = [0 0]; skip = 1; detrend = 1
+                     warning: set-1 data for subject 1 session 1 not found
+2020-Apr-30 13:25  : warning: set-1 data for subject 2 session 1 not found
+                     warning: set-1 data for subject 2 session 2 not found
+2020-Apr-30 13:26  : warning: set-1 data for subject 3 session 1 not found
+                     warning: set-1 data for subject 3 session 2 not found
+2020-Apr-30 13:27  : warning: set-1 data for subject 4 session 1 not found
+2020-Apr-30 13:28  : warning: set-1 data for subject 4 session 2 not found
+                     warning: set-1 data for subject 5 session 1 not found
+2020-Apr-30 13:29  : warning: set-1 data for subject 5 session 2 not found
+                     warning: set-1 data for subject 6 session 1 not found
+2020-Apr-30 13:30  : warning: set-1 data for subject 6 session 2 not found
+2020-Apr-30 13:31  : warning: set-1 data for subject 7 session 1 not found
+2020-Apr-30 13:32  : warning: set-1 data for subject 7 session 2 not found
+2020-Apr-30 13:33  : warning: set-1 data for subject 8 session 1 not found
+                     warning: set-1 data for subject 8 session 2 not found
+2020-Apr-30 13:34  : warning: set-1 data for subject 9 session 1 not found
+                     warning: set-1 data for subject 9 session 2 not found
+2020-Apr-30 13:35  : warning: set-1 data for subject 10 session 1 not found
+                     warning: set-1 data for subject 10 session 2 not found
+2020-Apr-30 13:36  : warning: set-1 data for subject 11 session 1 not found
+                     warning: set-1 data for subject 11 session 2 not found
+2020-Apr-30 13:37  : warning: set-1 data for subject 12 session 1 not found
+2020-Apr-30 13:38  : warning: set-1 data for subject 12 session 2 not found
+                     warning: set-1 data for subject 13 session 1 not found
+2020-Apr-30 13:39  : warning: set-1 data for subject 13 session 2 not found
+                     warning: set-1 data for subject 14 session 1 not found
+2020-Apr-30 13:40  : warning: set-1 data for subject 14 session 2 not found
+2020-Apr-30 13:41  : Performing functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     Done functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     Importing results to CONN project
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_MVPA.mat
+                     Done
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_MVPA.mat
+2020-Apr-30 13:47  : saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_MVPA.mat
+2020-May-06 11:59  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn/conn_isss_physio_MVPA.mat loaded
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00008.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00009.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00010.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00011.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00013.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00014.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00015.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00016.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00018.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00019.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00020.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00021.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00023.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00024.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00025.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00026.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00028.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00029.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00030.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00031.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00033.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00034.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00035.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00036.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00038.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00039.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00040.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00041.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00043.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00044.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00045.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00046.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00048.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00049.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00050.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00051.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00053.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00054.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00055.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00056.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00058.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00059.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00060.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00061.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00063.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00064.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00065.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00066.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00068.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00069.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00070.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00071.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00073.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00074.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00075.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00076.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00078.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00079.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00080.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00081.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00083.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00084.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00085.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/FUNCTIONAL/wuisss_run1_00086.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00008.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00009.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00010.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00011.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00013.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00014.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00015.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00016.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00018.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00019.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00020.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00021.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00023.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00024.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00025.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00026.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00028.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00029.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00030.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00031.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00033.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00034.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00035.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00036.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00038.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00039.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00040.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00041.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00043.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00044.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00045.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00046.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00048.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00049.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00050.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00051.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00053.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00054.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00055.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00056.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00058.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00059.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00060.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00061.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00063.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00064.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00065.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00066.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00068.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00069.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00070.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00071.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00073.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00074.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00075.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00076.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00078.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00079.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00080.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00081.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00083.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00084.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00085.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/FUNCTIONAL/wuisss_run2_00086.nii
+                     CONN: RUNNING SETUP.PREPROCESSING STEP
+                     Preparing functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     regression of temporal component (White Matter CSF )
+                     dimensions = [2 2]; derivatives = [0 0]; skip = 1; detrend = 1
+2020-May-06 12:18  : Performing functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     Done functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     Importing results to CONN project
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn/conn_isss_physio_MVPA.mat
+                     Done
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn/conn_isss_physio_MVPA.mat

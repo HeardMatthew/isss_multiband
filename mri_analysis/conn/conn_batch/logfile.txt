@@ -1,0 +1,61 @@
+2020-Apr-09 11:27  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch_hybrid.mat loaded
+2020-Apr-09 11:28  : Saving file
+2020-Apr-09 11:31  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch_hybrid.mat loaded
+                     Saving file
+2020-Apr-09 11:38  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch_hybrid.mat loaded
+                     ERROR DESCRIPTION:
+                      
+                     Cell contents reference from a non-cell array object.
+                     Error in conn (line 2425)
+                      if length(CONN_x.Setup.structural{nsub}{nses})<3, CONN_x.Setup.structural{nsub}{nses}{3}=[]; end
+                     Error in conn (line 1500)
+                      [varargout{1:nargout}]=conn('gui_setup',varargin{3:end});
+                     Error in conn_menumanager (line 120)
+                      feval(CONN_MM.MENU{n0}.callback{n1}{1},CONN_MM.MENU{n0}.callback{n1}{2:end}); 
+                     CONN19.b
+                     SPM12 + Anatomy DEM FieldMap MEEGtools conn marsbar
+                     Matlab v.2017a
+                     project: CONN19.b
+                     storage: 2167.8Gb available
+                      
+                     spm @ /users/PAS1342/osu9912/fmri/spm12
+                     conn @ /users/PAS1342/osu9912/fmri/spm12/toolbox/conn
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch_hybrid.mat
+                      Done
+2020-Apr-09 11:43  : Saving file
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch_hybrid.mat
+                      Done
+                     Saving file
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch_hybrid.mat
+                      Done
+2020-Apr-09 14:37  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch.mat loaded
+2020-Apr-09 14:38  : Saving file
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch.mat
+                      Done
+2020-Apr-09 15:03  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch.mat loaded
+                     Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch.mat loaded
+2020-Apr-09 15:06  : Saving file
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch.mat
+                      Done
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch.mat
+2020-Apr-09 15:50  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch.mat loaded
+                     warning: undefined number of scans for subject 1 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 1 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 1 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 1 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 3 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 3 session 2. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 1 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+2020-Apr-09 15:51  : Saving file
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch.mat
+                      Done
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch.mat
+                     Checking if data files have been edited or moved
+2020-Apr-09 15:55  : Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_batch.mat loaded

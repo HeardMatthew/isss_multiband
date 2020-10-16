@@ -1,0 +1,1080 @@
+2020-Apr-09 11:47  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 11:48  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 11:55  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 11:56  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 11:57  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+                     ERROR DESCRIPTION:
+                      
+                     Cell contents reference from a non-cell array object.
+                     Error in conn (line 2425)
+                      if length(CONN_x.Setup.structural{nsub}{nses})<3, CONN_x.Setup.structural{nsub}{nses}{3}=[]; end
+                     Error in conn (line 1500)
+                      [varargout{1:nargout}]=conn('gui_setup',varargin{3:end});
+                     Error in conn_menumanager (line 120)
+                      feval(CONN_MM.MENU{n0}.callback{n1}{1},CONN_MM.MENU{n0}.callback{n1}{2:end}); 
+                     CONN19.b
+                     SPM12 + Anatomy DEM FieldMap MEEGtools conn marsbar
+                     Matlab v.2017a
+                     project: CONN19.b
+                     storage: 2167.8Gb available
+                      
+                     spm @ /users/PAS1342/osu9912/fmri/spm12
+                     conn @ /users/PAS1342/osu9912/fmri/spm12/toolbox/conn
+2020-Apr-09 11:58  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 11:59  : CONN functional connectivity toolbox (19.b)
+                     Checking for updates
+2020-Apr-09 12:00  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 12:01  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 14:01  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+                     ERROR DESCRIPTION:
+                      
+                     Cell contents reference from a non-cell array object.
+                     Error in conn (line 2425)
+                      if length(CONN_x.Setup.structural{nsub}{nses})<3, CONN_x.Setup.structural{nsub}{nses}{3}=[]; end
+                     Error in conn (line 1500)
+                      [varargout{1:nargout}]=conn('gui_setup',varargin{3:end});
+                     Error in conn_menumanager (line 120)
+                      feval(CONN_MM.MENU{n0}.callback{n1}{1},CONN_MM.MENU{n0}.callback{n1}{2:end}); 
+                     CONN19.b
+                     SPM12 + Anatomy DEM FieldMap MEEGtools conn marsbar
+                     Matlab v.2017a
+                     project: CONN19.b
+                     storage: 2167.3Gb available
+                      
+                     spm @ /users/PAS1342/osu9912/fmri/spm12
+                     conn @ /users/PAS1342/osu9912/fmri/spm12/toolbox/conn
+2020-Apr-09 14:03  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 14:47  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 15:01  : Saving file
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat
+                      Done
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat
+2020-Apr-09 15:04  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 15:05  : Saving file
+2020-Apr-09 15:12  : Checking if data files have been edited or moved
+2020-Apr-09 15:13  : conn_updatefilepaths: file /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNCTIONAL/swuhybrid_run1_00014.nii not found
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 15:14  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+                     Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 15:17  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 15:24  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 15:25  : warning: undefined number of scans for subject 1 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 1 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+2020-Apr-09 15:26  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00014.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00015.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00016.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00017.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00018.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00019.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00020.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00021.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00024.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00025.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00026.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00027.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00028.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00029.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00030.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00031.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00034.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00035.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00036.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00037.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00038.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00039.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00040.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00041.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00044.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00045.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00046.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00047.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00048.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00049.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00050.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00051.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00054.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00055.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00056.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00057.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00058.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00059.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00060.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00061.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00064.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00065.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00066.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00067.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00068.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00069.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00070.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00071.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00074.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00075.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00076.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00077.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00078.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00079.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00080.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00081.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00084.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00085.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00086.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00087.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00088.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00089.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00090.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00091.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00094.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00095.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00096.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00097.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00098.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00099.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00100.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00101.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00104.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00105.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00106.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00107.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00108.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00109.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00110.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00111.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00114.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00115.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00116.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00117.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00118.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00119.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00120.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00121.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00124.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00125.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00126.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00127.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00128.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00129.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00130.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00131.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00134.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00135.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00136.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00137.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00138.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00139.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00140.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00141.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00144.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00145.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00146.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00147.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00148.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00149.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00150.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00151.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00154.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00155.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00156.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00157.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00158.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00159.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00160.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00161.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00164.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00165.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00166.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00167.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00168.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00169.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00170.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/FUNC_GLM/swuhybrid_run1_00171.nii
+2020-Apr-09 15:27  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 15:29  : /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00014.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00015.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00016.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00017.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00018.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00019.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00020.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00021.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00024.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00025.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00026.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00027.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00028.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00029.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00030.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00031.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00034.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00035.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00036.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00037.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00038.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00039.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00040.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00041.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00044.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00045.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00046.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00047.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00048.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00049.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00050.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00051.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00054.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00055.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00056.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00057.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00058.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00059.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00060.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00061.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00064.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00065.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00066.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00067.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00068.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00069.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00070.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00071.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00074.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00075.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00076.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00077.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00078.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00079.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00080.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00081.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00084.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00085.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00086.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00087.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00088.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00089.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00090.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00091.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00094.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00095.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00096.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00097.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00098.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00099.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00100.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00101.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00104.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00105.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00106.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00107.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00108.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00109.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00110.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00111.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00114.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00115.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00116.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00117.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00118.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00119.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00120.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00121.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00124.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00125.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00126.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00127.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00128.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00129.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00130.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00131.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00134.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00135.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00136.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00137.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00138.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00139.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00140.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00141.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00144.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00145.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00146.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00147.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00148.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00149.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00150.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00151.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00154.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00155.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00156.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00157.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00158.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00159.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00160.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00161.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00164.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00165.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00166.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00167.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00168.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00169.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00170.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run2_00171.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00014.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00015.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00016.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00017.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00018.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00019.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00020.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00021.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00024.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00025.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00026.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00027.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00028.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00029.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00030.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00031.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00034.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00035.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00036.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00037.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00038.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00039.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00040.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00041.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00044.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00045.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00046.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00047.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00048.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00049.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00050.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00051.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00054.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00055.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00056.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00057.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00058.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00059.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00060.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00061.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00064.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00065.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00066.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00067.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00068.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00069.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00070.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00071.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00074.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00075.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00076.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00077.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00078.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00079.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00080.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00081.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00084.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00085.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00086.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00087.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00088.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00089.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00090.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00091.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00094.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00095.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00096.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00097.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00098.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00099.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00100.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00101.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00104.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00105.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00106.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00107.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00108.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00109.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00110.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00111.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00114.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00115.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00116.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00117.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00118.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00119.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00120.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00121.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00124.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00125.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00126.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00127.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00128.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00129.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00130.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00131.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00134.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00135.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00136.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00137.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00138.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00139.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00140.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00141.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00144.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00145.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00146.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00147.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00148.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00149.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00150.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00151.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00154.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00155.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00156.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00157.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00158.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00159.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00160.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00161.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00164.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00165.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00166.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00167.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00168.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00169.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00170.nii
+                     /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/FUNC_GLM/swuhybrid_run1_00171.nii
+2020-Apr-09 15:53  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 15:54  : warning: undefined number of scans for subject 1 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 5 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 5 session 2. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 5 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 5 session 2. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 9 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     warning: undefined number of scans for subject 9 session 2. Assumming 100 scans. Please enter functional data first to avoid this warning
+2020-Apr-09 15:58  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 15:59  : Preparing structural Segmentation & Normalization (simultaneous Grey/White/CSF segmentation and MNI normalization)
+                     Performing structural Segmentation & Normalization (simultaneous Grey/White/CSF segmentation and MNI normalization)
+2020-Apr-09 16:00  : SPM preprocessing job
+                     (1).spm.spatial.preproc.channel.vols(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/MPRAGE.nii
+                     (1).spm.spatial.preproc.channel.vols(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/MPRAGE.nii
+                     (1).spm.spatial.preproc.channel.vols(13) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/MPRAGE.nii
+                     (1).spm.spatial.preproc.channel.vols(14) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/MPRAGE.nii
+                     (1).spm.spatial.preproc.warp.write = [1 1]
+                     (2).spm.spatial.normalise.write.woptions.bb = [-90 -126 -72;90 90 108]
+                     (2).spm.spatial.normalise.write.woptions.vox = [1 1 1]
+                     (2).spm.spatial.normalise.write.subj(1).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(1).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(1).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(1).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(1).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(2).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(2).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(2).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(2).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(2).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(3).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(3).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(3).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(3).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(3).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(4).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(4).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(4).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(4).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(4).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(5).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(5).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(5).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(5).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(5).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(6).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(6).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(6).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(6).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(6).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(7).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(7).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(7).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(7).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(7).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(8).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(8).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(8).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(8).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(8).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(9).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(9).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(9).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(9).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(9).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(10).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(10).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(10).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(10).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(10).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(11).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(11).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(11).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(11).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(11).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(12).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(12).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(12).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(12).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(12).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(13).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(13).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(13).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(13).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(13).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(14).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(14).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(14).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(14).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(14).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/c3MPRAGE.nii
+                     (3).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (3).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wMPRAGE.nii
+                     (3).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc1MPRAGE.nii
+                     (3).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc2MPRAGE.nii
+                     (3).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc3MPRAGE.nii
+                     (3).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc0MPRAGE.nii
+                     (3).spm.util.imcalc.options.dtype = 16
+                     (4).spm.util.imcalc.expression = (i2+i3+i4)
+                     (4).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wMPRAGE.nii
+                     (4).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc1MPRAGE.nii
+                     (4).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc2MPRAGE.nii
+                     (4).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc3MPRAGE.nii
+                     (4).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (4).spm.util.imcalc.options.dtype = 16
+                     (5).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (5).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wMPRAGE.nii
+                     (5).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (5).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (5).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (5).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc0MPRAGE.nii
+                     (5).spm.util.imcalc.options.dtype = 16
+                     (6).spm.util.imcalc.expression = (i2+i3+i4)
+                     (6).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wMPRAGE.nii
+                     (6).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (6).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (6).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (6).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (6).spm.util.imcalc.options.dtype = 16
+                     (7).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (7).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wMPRAGE.nii
+                     (7).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (7).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (7).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (7).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc0MPRAGE.nii
+                     (7).spm.util.imcalc.options.dtype = 16
+                     (8).spm.util.imcalc.expression = (i2+i3+i4)
+                     (8).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wMPRAGE.nii
+                     (8).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (8).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (8).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (8).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (8).spm.util.imcalc.options.dtype = 16
+                     (9).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (9).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wMPRAGE.nii
+                     (9).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (9).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (9).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (9).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc0MPRAGE.nii
+                     (9).spm.util.imcalc.options.dtype = 16
+                     (10).spm.util.imcalc.expression = (i2+i3+i4)
+                     (10).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wMPRAGE.nii
+                     (10).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (10).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (10).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (10).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (10).spm.util.imcalc.options.dtype = 16
+                     (11).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (11).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wMPRAGE.nii
+                     (11).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (11).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (11).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (11).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc0MPRAGE.nii
+                     (11).spm.util.imcalc.options.dtype = 16
+                     (12).spm.util.imcalc.expression = (i2+i3+i4)
+                     (12).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wMPRAGE.nii
+                     (12).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (12).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (12).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (12).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (12).spm.util.imcalc.options.dtype = 16
+                     (13).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (13).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wMPRAGE.nii
+                     (13).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (13).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (13).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (13).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc0MPRAGE.nii
+                     (13).spm.util.imcalc.options.dtype = 16
+                     (14).spm.util.imcalc.expression = (i2+i3+i4)
+                     (14).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wMPRAGE.nii
+                     (14).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (14).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (14).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (14).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (14).spm.util.imcalc.options.dtype = 16
+                     (15).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (15).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wMPRAGE.nii
+                     (15).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc1MPRAGE.nii
+                     (15).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc2MPRAGE.nii
+                     (15).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc3MPRAGE.nii
+                     (15).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc0MPRAGE.nii
+                     (15).spm.util.imcalc.options.dtype = 16
+                     (16).spm.util.imcalc.expression = (i2+i3+i4)
+                     (16).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wMPRAGE.nii
+                     (16).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc1MPRAGE.nii
+                     (16).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc2MPRAGE.nii
+                     (16).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc3MPRAGE.nii
+                     (16).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (16).spm.util.imcalc.options.dtype = 16
+                     (17).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (17).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wMPRAGE.nii
+                     (17).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc1MPRAGE.nii
+                     (17).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc2MPRAGE.nii
+                     (17).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc3MPRAGE.nii
+                     (17).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc0MPRAGE.nii
+                     (17).spm.util.imcalc.options.dtype = 16
+                     (18).spm.util.imcalc.expression = (i2+i3+i4)
+                     (18).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wMPRAGE.nii
+                     (18).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc1MPRAGE.nii
+                     (18).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc2MPRAGE.nii
+                     (18).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc3MPRAGE.nii
+                     (18).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (18).spm.util.imcalc.options.dtype = 16
+                     (19).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (19).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wMPRAGE.nii
+                     (19).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc1MPRAGE.nii
+                     (19).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc2MPRAGE.nii
+                     (19).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc3MPRAGE.nii
+                     (19).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc0MPRAGE.nii
+                     (19).spm.util.imcalc.options.dtype = 16
+                     (20).spm.util.imcalc.expression = (i2+i3+i4)
+                     (20).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wMPRAGE.nii
+                     (20).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc1MPRAGE.nii
+                     (20).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc2MPRAGE.nii
+                     (20).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc3MPRAGE.nii
+                     (20).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (20).spm.util.imcalc.options.dtype = 16
+                     (21).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (21).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wMPRAGE.nii
+                     (21).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc1MPRAGE.nii
+                     (21).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc2MPRAGE.nii
+                     (21).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc3MPRAGE.nii
+                     (21).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc0MPRAGE.nii
+                     (21).spm.util.imcalc.options.dtype = 16
+                     (22).spm.util.imcalc.expression = (i2+i3+i4)
+                     (22).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wMPRAGE.nii
+                     (22).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc1MPRAGE.nii
+                     (22).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc2MPRAGE.nii
+                     (22).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc3MPRAGE.nii
+                     (22).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (22).spm.util.imcalc.options.dtype = 16
+                     (23).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (23).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wMPRAGE.nii
+                     (23).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc1MPRAGE.nii
+                     (23).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc2MPRAGE.nii
+                     (23).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc3MPRAGE.nii
+                     (23).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc0MPRAGE.nii
+                     (23).spm.util.imcalc.options.dtype = 16
+                     (24).spm.util.imcalc.expression = (i2+i3+i4)
+                     (24).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wMPRAGE.nii
+                     (24).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc1MPRAGE.nii
+                     (24).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc2MPRAGE.nii
+                     (24).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc3MPRAGE.nii
+                     (24).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (24).spm.util.imcalc.options.dtype = 16
+                     (25).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (25).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wMPRAGE.nii
+                     (25).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc1MPRAGE.nii
+                     (25).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc2MPRAGE.nii
+                     (25).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc3MPRAGE.nii
+                     (25).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc0MPRAGE.nii
+                     (25).spm.util.imcalc.options.dtype = 16
+                     (26).spm.util.imcalc.expression = (i2+i3+i4)
+                     (26).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wMPRAGE.nii
+                     (26).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc1MPRAGE.nii
+                     (26).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc2MPRAGE.nii
+                     (26).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc3MPRAGE.nii
+                     (26).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (26).spm.util.imcalc.options.dtype = 16
+                     (27).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (27).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wMPRAGE.nii
+                     (27).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc1MPRAGE.nii
+                     (27).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc2MPRAGE.nii
+                     (27).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc3MPRAGE.nii
+                     (27).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc0MPRAGE.nii
+                     (27).spm.util.imcalc.options.dtype = 16
+                     (28).spm.util.imcalc.expression = (i2+i3+i4)
+                     (28).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wMPRAGE.nii
+                     (28).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc1MPRAGE.nii
+                     (28).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc2MPRAGE.nii
+                     (28).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc3MPRAGE.nii
+                     (28).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (28).spm.util.imcalc.options.dtype = 16
+                     (29).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (29).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wMPRAGE.nii
+                     (29).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc1MPRAGE.nii
+                     (29).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc2MPRAGE.nii
+                     (29).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc3MPRAGE.nii
+                     (29).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc0MPRAGE.nii
+                     (29).spm.util.imcalc.options.dtype = 16
+                     (30).spm.util.imcalc.expression = (i2+i3+i4)
+                     (30).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wMPRAGE.nii
+                     (30).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc1MPRAGE.nii
+                     (30).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc2MPRAGE.nii
+                     (30).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc3MPRAGE.nii
+                     (30).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (30).spm.util.imcalc.options.dtype = 16
+2020-Apr-09 16:50  : Importing results to CONN project
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat
+                     Preprocessing finished correctly; Output files imported.
+2020-Apr-09 16:51  : warning: undefined number of scans for subject 1 session 1. Assumming 100 scans. Please enter functional data first to avoid this warning
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat
+2020-Apr-09 19:46  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+2020-Apr-09 19:47  : CONN: RUNNING SETUP.PREPROCESSING STEP
+                     Preparing functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     regression of temporal component (White Matter CSF )
+                     dimensions = [2 2]; derivatives = [0 0]; skip = 1; detrend = 1
+                     warning: set-1 data for subject 1 session 1 not found
+2020-Apr-09 19:48  : warning: set-1 data for subject 2 session 1 not found
+2020-Apr-09 19:51  : warning: set-1 data for subject 2 session 2 not found
+2020-Apr-09 19:52  : warning: set-1 data for subject 3 session 1 not found
+2020-Apr-09 19:54  : warning: set-1 data for subject 3 session 2 not found
+2020-Apr-09 19:56  : warning: set-1 data for subject 4 session 1 not found
+2020-Apr-09 19:59  : warning: set-1 data for subject 4 session 2 not found
+2020-Apr-09 20:01  : warning: set-1 data for subject 5 session 1 not found
+2020-Apr-09 20:04  : warning: set-1 data for subject 5 session 2 not found
+2020-Apr-09 20:06  : warning: set-1 data for subject 6 session 1 not found
+2020-Apr-09 20:08  : warning: set-1 data for subject 6 session 2 not found
+2020-Apr-09 20:11  : warning: set-1 data for subject 7 session 1 not found
+2020-Apr-09 20:14  : warning: set-1 data for subject 7 session 2 not found
+2020-Apr-09 20:17  : warning: set-1 data for subject 8 session 1 not found
+2020-Apr-09 20:19  : warning: set-1 data for subject 8 session 2 not found
+2020-Apr-09 20:22  : warning: set-1 data for subject 9 session 1 not found
+2020-Apr-09 20:25  : warning: set-1 data for subject 9 session 2 not found
+2020-Apr-09 20:27  : warning: set-1 data for subject 10 session 1 not found
+2020-Apr-09 20:29  : warning: set-1 data for subject 10 session 2 not found
+2020-Apr-09 20:32  : warning: set-1 data for subject 11 session 1 not found
+2020-Apr-09 20:35  : warning: set-1 data for subject 11 session 2 not found
+2020-Apr-09 20:37  : warning: set-1 data for subject 12 session 1 not found
+2020-Apr-09 20:40  : warning: set-1 data for subject 12 session 2 not found
+2020-Apr-09 20:42  : warning: set-1 data for subject 13 session 1 not found
+2020-Apr-09 20:44  : warning: set-1 data for subject 13 session 2 not found
+2020-Apr-09 20:47  : warning: set-1 data for subject 14 session 1 not found
+2020-Apr-09 20:49  : warning: set-1 data for subject 14 session 2 not found
+2020-Apr-09 20:52  : Performing functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     Done functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     Importing results to CONN project
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat
+                     Done
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat
+2020-Apr-09 21:02  : saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat
+2020-Apr-24 15:26  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat loaded
+                     Preparing structural Segmentation & Normalization (simultaneous Grey/White/CSF segmentation and MNI normalization)
+                     Performing structural Segmentation & Normalization (simultaneous Grey/White/CSF segmentation and MNI normalization)
+                     SPM preprocessing job
+                     (1).spm.spatial.preproc.channel.vols(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/MPRAGE.nii
+                     (1).spm.spatial.preproc.channel.vols(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/MPRAGE.nii
+                     (1).spm.spatial.preproc.channel.vols(13) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/MPRAGE.nii
+                     (1).spm.spatial.preproc.channel.vols(14) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/MPRAGE.nii
+                     (1).spm.spatial.preproc.warp.write = [1 1]
+                     (2).spm.spatial.normalise.write.woptions.bb = [-90 -126 -72;90 90 108]
+                     (2).spm.spatial.normalise.write.woptions.vox = [1 1 1]
+                     (2).spm.spatial.normalise.write.subj(1).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(1).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(1).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(1).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(1).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(2).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(2).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(2).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(2).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(2).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(3).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(3).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(3).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(3).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(3).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(4).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(4).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(4).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(4).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(4).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(5).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(5).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(5).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(5).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(5).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(6).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(6).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(6).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(6).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(6).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(7).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(7).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(7).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(7).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(7).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(8).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(8).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(8).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(8).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(8).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(9).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(9).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(9).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(9).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(9).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(10).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(10).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(10).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(10).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(10).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(11).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(11).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(11).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(11).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(11).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(12).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(12).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(12).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(12).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(12).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(13).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(13).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(13).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(13).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(13).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/c3MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(14).def = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/y_MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(14).resample(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(14).resample(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/c1MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(14).resample(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/c2MPRAGE.nii
+                     (2).spm.spatial.normalise.write.subj(14).resample(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/c3MPRAGE.nii
+                     (3).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (3).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wMPRAGE.nii
+                     (3).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc1MPRAGE.nii
+                     (3).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc2MPRAGE.nii
+                     (3).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc3MPRAGE.nii
+                     (3).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc0MPRAGE.nii
+                     (3).spm.util.imcalc.options.dtype = 16
+                     (4).spm.util.imcalc.expression = (i2+i3+i4)
+                     (4).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wMPRAGE.nii
+                     (4).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc1MPRAGE.nii
+                     (4).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc2MPRAGE.nii
+                     (4).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc3MPRAGE.nii
+                     (4).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JV_30Aug17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (4).spm.util.imcalc.options.dtype = 16
+                     (5).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (5).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wMPRAGE.nii
+                     (5).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (5).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (5).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (5).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc0MPRAGE.nii
+                     (5).spm.util.imcalc.options.dtype = 16
+                     (6).spm.util.imcalc.expression = (i2+i3+i4)
+                     (6).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wMPRAGE.nii
+                     (6).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (6).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (6).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (6).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/EH_10Oct17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (6).spm.util.imcalc.options.dtype = 16
+                     (7).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (7).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wMPRAGE.nii
+                     (7).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (7).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (7).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (7).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc0MPRAGE.nii
+                     (7).spm.util.imcalc.options.dtype = 16
+                     (8).spm.util.imcalc.expression = (i2+i3+i4)
+                     (8).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wMPRAGE.nii
+                     (8).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (8).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (8).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (8).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JC_13Oct17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (8).spm.util.imcalc.options.dtype = 16
+                     (9).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (9).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wMPRAGE.nii
+                     (9).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (9).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (9).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (9).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc0MPRAGE.nii
+                     (9).spm.util.imcalc.options.dtype = 16
+                     (10).spm.util.imcalc.expression = (i2+i3+i4)
+                     (10).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wMPRAGE.nii
+                     (10).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (10).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (10).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (10).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/SS_16Oct17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (10).spm.util.imcalc.options.dtype = 16
+2020-Apr-24 15:27  : (11).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (11).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wMPRAGE.nii
+                     (11).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (11).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (11).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (11).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc0MPRAGE.nii
+                     (11).spm.util.imcalc.options.dtype = 16
+                     (12).spm.util.imcalc.expression = (i2+i3+i4)
+                     (12).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wMPRAGE.nii
+                     (12).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (12).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (12).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (12).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/JD_18Oct17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (12).spm.util.imcalc.options.dtype = 16
+                     (13).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (13).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wMPRAGE.nii
+                     (13).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (13).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (13).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (13).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc0MPRAGE.nii
+                     (13).spm.util.imcalc.options.dtype = 16
+                     (14).spm.util.imcalc.expression = (i2+i3+i4)
+                     (14).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wMPRAGE.nii
+                     (14).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc1MPRAGE.nii
+                     (14).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc2MPRAGE.nii
+                     (14).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc3MPRAGE.nii
+                     (14).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KN_27Oct17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (14).spm.util.imcalc.options.dtype = 16
+                     (15).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (15).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wMPRAGE.nii
+                     (15).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc1MPRAGE.nii
+                     (15).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc2MPRAGE.nii
+                     (15).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc3MPRAGE.nii
+                     (15).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc0MPRAGE.nii
+                     (15).spm.util.imcalc.options.dtype = 16
+                     (16).spm.util.imcalc.expression = (i2+i3+i4)
+                     (16).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wMPRAGE.nii
+                     (16).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc1MPRAGE.nii
+                     (16).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc2MPRAGE.nii
+                     (16).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc3MPRAGE.nii
+                     (16).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/ZG_03Nov17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (16).spm.util.imcalc.options.dtype = 16
+                     (17).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (17).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wMPRAGE.nii
+                     (17).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc1MPRAGE.nii
+                     (17).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc2MPRAGE.nii
+                     (17).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc3MPRAGE.nii
+                     (17).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc0MPRAGE.nii
+                     (17).spm.util.imcalc.options.dtype = 16
+                     (18).spm.util.imcalc.expression = (i2+i3+i4)
+                     (18).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wMPRAGE.nii
+                     (18).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc1MPRAGE.nii
+                     (18).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc2MPRAGE.nii
+                     (18).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc3MPRAGE.nii
+                     (18).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CS_11Dec17/ANATOMICAL/wc0maskMPRAGE.nii
+                     (18).spm.util.imcalc.options.dtype = 16
+                     (19).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (19).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wMPRAGE.nii
+                     (19).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc1MPRAGE.nii
+                     (19).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc2MPRAGE.nii
+                     (19).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc3MPRAGE.nii
+                     (19).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc0MPRAGE.nii
+                     (19).spm.util.imcalc.options.dtype = 16
+                     (20).spm.util.imcalc.expression = (i2+i3+i4)
+                     (20).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wMPRAGE.nii
+                     (20).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc1MPRAGE.nii
+                     (20).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc2MPRAGE.nii
+                     (20).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc3MPRAGE.nii
+                     (20).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/CC_04Jan18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (20).spm.util.imcalc.options.dtype = 16
+                     (21).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (21).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wMPRAGE.nii
+                     (21).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc1MPRAGE.nii
+                     (21).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc2MPRAGE.nii
+                     (21).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc3MPRAGE.nii
+                     (21).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc0MPRAGE.nii
+                     (21).spm.util.imcalc.options.dtype = 16
+                     (22).spm.util.imcalc.expression = (i2+i3+i4)
+                     (22).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wMPRAGE.nii
+                     (22).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc1MPRAGE.nii
+                     (22).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc2MPRAGE.nii
+                     (22).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc3MPRAGE.nii
+                     (22).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KB_19Jan18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (22).spm.util.imcalc.options.dtype = 16
+                     (23).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (23).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wMPRAGE.nii
+                     (23).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc1MPRAGE.nii
+                     (23).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc2MPRAGE.nii
+                     (23).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc3MPRAGE.nii
+                     (23).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc0MPRAGE.nii
+                     (23).spm.util.imcalc.options.dtype = 16
+                     (24).spm.util.imcalc.expression = (i2+i3+i4)
+                     (24).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wMPRAGE.nii
+                     (24).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc1MPRAGE.nii
+                     (24).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc2MPRAGE.nii
+                     (24).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc3MPRAGE.nii
+                     (24).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/DM_05Feb18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (24).spm.util.imcalc.options.dtype = 16
+                     (25).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (25).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wMPRAGE.nii
+                     (25).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc1MPRAGE.nii
+                     (25).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc2MPRAGE.nii
+                     (25).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc3MPRAGE.nii
+                     (25).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc0MPRAGE.nii
+                     (25).spm.util.imcalc.options.dtype = 16
+                     (26).spm.util.imcalc.expression = (i2+i3+i4)
+                     (26).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wMPRAGE.nii
+                     (26).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc1MPRAGE.nii
+                     (26).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc2MPRAGE.nii
+                     (26).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc3MPRAGE.nii
+                     (26).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KC_21Feb18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (26).spm.util.imcalc.options.dtype = 16
+                     (27).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (27).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wMPRAGE.nii
+                     (27).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc1MPRAGE.nii
+                     (27).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc2MPRAGE.nii
+                     (27).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc3MPRAGE.nii
+                     (27).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc0MPRAGE.nii
+                     (27).spm.util.imcalc.options.dtype = 16
+                     (28).spm.util.imcalc.expression = (i2+i3+i4)
+                     (28).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wMPRAGE.nii
+                     (28).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc1MPRAGE.nii
+                     (28).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc2MPRAGE.nii
+                     (28).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc3MPRAGE.nii
+                     (28).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/MA_12Apr18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (28).spm.util.imcalc.options.dtype = 16
+                     (29).spm.util.imcalc.expression = (i2+i3+i4).*i1
+                     (29).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wMPRAGE.nii
+                     (29).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc1MPRAGE.nii
+                     (29).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc2MPRAGE.nii
+                     (29).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc3MPRAGE.nii
+                     (29).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc0MPRAGE.nii
+                     (29).spm.util.imcalc.options.dtype = 16
+                     (30).spm.util.imcalc.expression = (i2+i3+i4)
+                     (30).spm.util.imcalc.input(1) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wMPRAGE.nii
+                     (30).spm.util.imcalc.input(2) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc1MPRAGE.nii
+                     (30).spm.util.imcalc.input(3) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc2MPRAGE.nii
+                     (30).spm.util.imcalc.input(4) = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc3MPRAGE.nii
+                     (30).spm.util.imcalc.output = /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/data/KV_27Apr18/ANATOMICAL/wc0maskMPRAGE.nii
+                     (30).spm.util.imcalc.options.dtype = 16
+2020-Apr-24 16:26  : Importing results to CONN project
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat
+                     Preprocessing finished correctly; Output files imported.
+2020-Apr-24 16:31  : saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_hybrid_physio.mat

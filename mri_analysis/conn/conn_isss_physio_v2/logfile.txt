@@ -1,0 +1,39 @@
+2020-Apr-28 20:48  : Checking if data files have been edited or moved
+                     Project /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_v2.mat loaded
+2020-Apr-28 20:58  : CONN: RUNNING SETUP.PREPROCESSING STEP
+                     Preparing functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     regression of temporal component (White Matter CSF )
+                     dimensions = [2 2]; derivatives = [0 0]; skip = 1; detrend = 1
+                     warning: set-1 data for subject 1 session 1 not found
+2020-Apr-28 20:59  : warning: set-1 data for subject 2 session 1 not found
+2020-Apr-28 21:00  : warning: set-1 data for subject 2 session 2 not found
+2020-Apr-28 21:01  : warning: set-1 data for subject 3 session 1 not found
+                     warning: set-1 data for subject 3 session 2 not found
+2020-Apr-28 21:02  : warning: set-1 data for subject 4 session 1 not found
+2020-Apr-28 21:03  : warning: set-1 data for subject 4 session 2 not found
+                     warning: set-1 data for subject 5 session 1 not found
+2020-Apr-28 21:04  : warning: set-1 data for subject 5 session 2 not found
+2020-Apr-28 21:05  : warning: set-1 data for subject 6 session 1 not found
+2020-Apr-28 21:06  : warning: set-1 data for subject 6 session 2 not found
+2020-Apr-28 21:07  : warning: set-1 data for subject 7 session 1 not found
+                     warning: set-1 data for subject 7 session 2 not found
+2020-Apr-28 21:08  : warning: set-1 data for subject 8 session 1 not found
+2020-Apr-28 21:09  : warning: set-1 data for subject 8 session 2 not found
+2020-Apr-28 21:10  : warning: set-1 data for subject 9 session 1 not found
+2020-Apr-28 21:11  : warning: set-1 data for subject 9 session 2 not found
+2020-Apr-28 21:12  : warning: set-1 data for subject 10 session 1 not found
+                     warning: set-1 data for subject 10 session 2 not found
+2020-Apr-28 21:13  : warning: set-1 data for subject 11 session 1 not found
+2020-Apr-28 21:14  : warning: set-1 data for subject 11 session 2 not found
+                     warning: set-1 data for subject 12 session 1 not found
+2020-Apr-28 21:15  : warning: set-1 data for subject 12 session 2 not found
+2020-Apr-28 21:16  : warning: set-1 data for subject 13 session 1 not found
+2020-Apr-28 21:17  : warning: set-1 data for subject 13 session 2 not found
+                     warning: set-1 data for subject 14 session 1 not found
+2020-Apr-28 21:18  : warning: set-1 data for subject 14 session 2 not found
+2020-Apr-28 21:19  : Performing functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     Done functional Regression of temporal components (keep residuals of linear model to BOLD timeseries)
+                     Importing results to CONN project
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_v2.mat
+                     Done
+                     saved /users/PAS1342/osu9912/fmri/isss_multi/isss_multiband_122119/batch/conn_isss_physio_v2.mat
